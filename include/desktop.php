@@ -12,7 +12,13 @@
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="js/bootstrap.js"></script>
   </head>
-  <body>
-    Ciao
+  <body class="rpi_dbody">
+    <div class="rpi_dbox">
+      <h1 class="title">RPIGroup Play</h1>
+      <p class="subtitle"><i>Un nuovo modo di ascoltare musica</i></p>
+      <hr>
+      <hr>
+      <button type="button" name="button">ASCOLTA RPIGRPUP PLAY</button>
+    </div>
   </body>
 </html>
