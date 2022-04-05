@@ -11,14 +11,19 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body class="rpi_dbody">
     <div class="rpi_dbox">
       <h1 class="title">RPIGroup Play</h1>
       <p class="subtitle"><i>Un nuovo modo di ascoltare musica</i></p>
       <hr>
+      ascolta le nostre emittenti con la nostra nuova app disegnata per smartphone (e non...)
       <hr>
-      <button type="button" name="button">ASCOLTA RPIGRPUP PLAY</button>
+      <button class="rpi_dbtn" type="button" name="button" onclick="window.open('<?php echo $thisurl; ?>?player','popUpWindow','height=600,width=450,left=80,top=60,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">ASCOLTA RPIGRPUP PLAY</button>
+    </div>
+    <div class="rpi_dfooter">
+      App powered by A.S.V. Studios APPS
     </div>
   </body>
 </html>

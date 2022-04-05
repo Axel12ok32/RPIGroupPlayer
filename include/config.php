@@ -6,6 +6,8 @@ $description_site = "";
 $logo_site = "";
 $favicon_site = "";
 
+$thisurl = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
 
 // Controllo Smarthpne
 function isMobileDevice(){
