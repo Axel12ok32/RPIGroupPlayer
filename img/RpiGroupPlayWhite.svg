@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="254mm"
+   height="69mm"
+   viewBox="0 0 254 69"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="RpiGroup Play WHITE.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0381216"
+     inkscape:cx="481.63913"
+     inkscape:cy="276.9425"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="83.099152"
+       y="268.36938"
+       width="1046.9131"
+       height="292.20932"
+       id="rect2696" />
+  </defs>
+  <g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g115895"
+       transform="translate(1.131366,1.3862444)">
+      <text
+         xml:space="preserve"
+         transform="matrix(0.26458333,0,0,0.26458333,-25.410801,-55.802387)"
+         id="text2694"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;line-height:0;font-family:'Malgun Gothic';-inkscape-font-specification:'Malgun Gothic Bold';letter-spacing:-7px;white-space:pre;shape-inside:url(#rect2696);fill:#2a377e;fill-opacity:1;stroke:none"><tspan
+           x="83.099609"
+           y="417.31399"
+           id="tspan123972"><tspan
+             style="line-height:1;font-family:'Maiandra GD';-inkscape-font-specification:'Maiandra GD Bold';letter-spacing:-15px;fill:#ffffff"
+             id="tspan123962">RPI</tspan><tspan
+             dx="-15"
+             style="font-size:53.3333px;letter-spacing:0px;fill:#ffffff"
+             id="tspan123964"> </tspan><tspan
+             dx="10.000004"
+             style="fill:#ffffff"
+             id="tspan123966">Group</tspan><tspan
+             style="font-size:148px"
+             id="tspan123968"> </tspan><tspan
+             style="font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI Bold';letter-spacing:-10px;fill:#f7b835"
+             id="tspan123970">Play</tspan></tspan></text>
+      <path
+         style="fill:none;stroke:#f7b835;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 56.217322,11.650982 c 5.939254,0.41143 9.094873,5.4153 8.904918,10.27467"
+         id="path42806"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#f7b835;stroke-width:2.44688;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 56.481391,6.7067586 c 8.705065,0.601213 13.330204,7.9132434 13.05179,15.0141214"
+         id="path42806-7"
+         sodipodi:nodetypes="cc" />
+      <path
+         style="fill:none;stroke:#f7b835;stroke-width:3.15615;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M 56.804607,1.2625936 C 68.853884,2.0652156 75.255859,11.826816 74.870479,21.306526"
+         id="path42806-7-7"
+         sodipodi:nodetypes="cc" />
+    </g>
+  </g>
+</svg>

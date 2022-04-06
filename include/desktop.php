@@ -15,7 +15,7 @@
   </head>
   <body class="rpi_dbody">
     <div class="rpi_dbox">
-      <h1 class="title">RPIGroup Play</h1>
+      <img src="img/RpiGroupPlayWhite.png" alt="Logo" style="width: 315px;">
       <p class="subtitle"><i>Un nuovo modo di ascoltare musica</i></p>
       <hr>
       ascolta le nostre emittenti con la nostra nuova app disegnata per smartphone (e non...)

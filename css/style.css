@@ -15,7 +15,7 @@ body{
 
 /* DESKTOP SECTION */
 body.rpi_dbody{
-  background: #009edf;
+  background: #2a377e;
   color: white;
 }
 
@@ -24,7 +24,7 @@ div.rpi_dbox{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background: #0c67b58f;
+  background: #4358ca8f;
   padding: 25px;
   border-radius: 50px;
   text-align: center;
