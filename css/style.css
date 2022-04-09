@@ -58,3 +58,74 @@ div.rpi_dfooter{
 
 
 /* MOBILE SECTION */
+.transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .transition-fade {
+  opacity: 0;
+}
+
+#preloader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: #2a377e;
+  transition: 500ms;
+  z-index: 1000;
+}
+
+#preloader > img{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rpi_mcontainer{
+  padding: 0px;
+}
+
+.rpi_mcontainer > .nav{
+  padding: 15px;
+  background: #0f1964;
+  color: white;
+}
+
+.rpi_mcontainer > .nav > a{
+  color: white;
+}
+
+.rpi_mcontainer > .nav > .title{
+  font-size: 23px;
+  margin-left: 10px;
+}
+
+.rpi_mcontainer > .rpi_mfaderpage > .header{
+  background: #2a377e;
+  height: 300px;
+  margin: 0px;
+  text-align: center;
+  border-bottom-left-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+
+.rpi_mcontainer > .rpi_mfaderpage > .header > img{
+  margin-top: 70px;
+}
+
+.rpi_mcontainer > .rpi_mfaderpage > .header > p.subtitle{
+  color: white;
+}
+
+.rpi_mcontainer > .rpi_mfaderpage > .content{
+  margin-top: 25px;
+  text-align: center;
+}
+
+.rpi_mcontainer > .rpi_mfaderpage > .content > .row{
+  width: 100%;
+}

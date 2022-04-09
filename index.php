@@ -3,9 +3,9 @@
   require "include/config.php";
 
   // Check Device
-  if (isMobileDevice() or isset($_GET['player'])) {
+  if(isMobileDevice() or isset($_GET['player']) or isset($_GET['play'])) {
     require "include/mobile.php";
-  }else {
+  }else{
     require "include/desktop.php";
   }
 ?>
