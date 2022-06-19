@@ -27,16 +27,21 @@ function isMobileDevice(){
   return false;
 }
 
-
 // Radio / Flussi
-$radio_list = array(
-  "Radio Città 105" => "#",
-  "RDL Radio Diffusione Libera" => "#"
+
+$radio_code = array(
+  "1" => "RDL",
+  "2" => "RadioCitta105"
+);
+
+$radio_logo = array(
+  "RadioCitta105" => "",
+  "RDL" => "https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1"
 );
 
 $radio_stream = array(
-  "Radio Città 105" => "#",
-  "RDL Radio Diffusione Libera" => "#"
+  "RadioCitta105" => "#",
+  "RDL" => "#"
 );
 
 ?>

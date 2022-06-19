@@ -14,42 +14,20 @@
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
     <script src="js/bootstrap.js"></script>
   </head>
-  <body id="body" class="rpi_mbody">
-    <div class="rpi_mpreloader" id="preloader">
-      <img src="img/RpiGroupPlayWHITE.png" alt="Logo" style="width: 315px;">
-    </div>
+  <?php
+    $radio_select = $radio_code[$_GET['play']];
+  ?>
+  <body id="body" class="rpi_mbody" style="background: black;">
     <div class="rpi_mcontainer">
-      <div class="nav">
+      <div class="nav" style="z-index: 1;position: fixed; width: 100%;">
         <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg></a>
         <div class="title" onclick="?player">
           RPIGroup
         </div>
       </div>
-      <div id="swup"  class="rpi_mfaderpage transition-fade">
-        <!-- contenuto -->
-        <div class="header">
-          <img src="img/RpiGroupPlayWHITE.png" alt="Logo" style="width: 315px;">
-          <p class="subtitle"><i>Un nuovo modo di ascoltare musica</i></p>
-        </div>
-        <div class="content">
-          <h3>Seleziona la radio che vuoi ascoltare</h3>
-          <br>
-          <div class="row">
-            <div class="col">
-              <a href="?play=1">
-                <img src="https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1" alt="RDL" style="width: 100%;">
-              </a>
-            </div>
-            <div class="col">
-              <a href="?play=2">
-                <img src="https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1" alt="RDL" style="width: 100%;">
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="rpi_mfooter">
-          App powered by A.S.V. Studios APPS
-        </div>
+      <div class="rpi_background" style="background: url('<?php echo $radio_logo[$radio_select]; ?>'); position: absolute; top: 0; left: 0; z-index: 0; width: 100%; height: 100%; background-size: cover; opacity: .5; background-position: center center;"></div>
+      <div id="swup" class="rpi_mfaderpage transition-fade" style=" color: white;position: absolute;z-index: 1;width: 100%;top: 70px;">
+          Ciao
       </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

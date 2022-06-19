@@ -4,7 +4,11 @@
 
   // Check Device
   if(isMobileDevice() or isset($_GET['player']) or isset($_GET['play'])) {
-    require "include/mobile.php";
+    if (isset($_GET['play'])) {
+      require "include/player.php";
+    }else{
+      require "include/mobile.php";
+    }
   }else{
     require "include/desktop.php";
   }
