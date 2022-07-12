@@ -104,6 +104,14 @@ html.is-animating .transition-fade {
   margin-left: 10px;
 }
 
+.rpi_menu{
+  background: #0f1964;
+}
+
+.rpi_menu > .offcanvas-header > .btn-close{
+
+}
+
 .rpi_mcontainer > .rpi_mfaderpage > .header{
   background: #2a377e;
   height: 250px;
@@ -122,6 +130,8 @@ html.is-animating .transition-fade {
 .rpi_mcontainer > .rpi_mfaderpage > .content{
   text-align: center;
   width: 90%;
+  max-width: 390px;
+  min-width: 350px;
   background: white;
   padding: 25px;
   border-radius: 15px;

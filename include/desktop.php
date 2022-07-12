@@ -20,7 +20,7 @@
       <hr>
       ascolta le nostre emittenti con la nostra nuova app disegnata per smartphone (e non...)
       <hr>
-      <button class="rpi_dbtn" type="button" name="button" onclick="window.open('<?php echo $thisurl; ?>?player','popUpWindow','height=600,width=450,left=80,top=60,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no, status=yes');">ASCOLTA RPIGRPUP PLAY</button>
+      <button class="rpi_dbtn" type="button" name="button" onclick="window.open('<?php echo $thisurl; ?>?playerDesktop','popUpWindow','height=600,width=385,resizable=no,scrollbars=no,toolbar=no,menubar=no,location=no,directories=no, status=yes');">ASCOLTA RPIGRPUP PLAY</button>
     </div>
     <div class="rpi_dfooter">
       App powered by A.S.V. Studios APPS
