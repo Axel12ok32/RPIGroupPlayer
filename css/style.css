@@ -105,11 +105,40 @@ html.is-animating .transition-fade {
 }
 
 .rpi_menu{
-  background: #0f1964;
+  background: #2a377e;
+  color: white;
 }
 
-.rpi_menu > .offcanvas-header > .btn-close{
+.rpi_menu > .offcanvas-header{
+  background-color: #0f1964;
+  height: 60px;
+}
 
+.rpi_menu > .offcanvas-header > .rpi_btn_close{
+  border: none;
+  background: none;
+  color: #ffffffaa;
+  font-weight: 600;
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.rpi_menu > .offcanvas-header > .rpi_btn_close:hover{
+  color: #ffffff;
+}
+
+.rpi_menu > .offcanvas-body > a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 1.15rem;
+  margin-bottom: 15px;
+  transition: 0.3s;
+}
+
+.rpi_menu > .offcanvas-body > a:hover{
+  margin-left: 10px;
+  font-weight: 500;
 }
 
 .rpi_mcontainer > .rpi_mfaderpage > .header{

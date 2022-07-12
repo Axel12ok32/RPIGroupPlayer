@@ -7,7 +7,7 @@
     if(isset($_GET['play'])){
       require "include/player.php";
     }else{
-      require "include/mobile.php";
+      require "include/mobileMANUTENZIONE.php";
     }
   }else{
     if(isset($_GET['playerDesktop'])){

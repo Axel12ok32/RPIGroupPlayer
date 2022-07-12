@@ -23,7 +23,7 @@
         <div class="title" style="font-size: 20px; cursor: pointer;" onclick="location.href='?playerDesktop';">
           RPIGroup
         </div>
-        <?php include "offcanvas.php"; ?>
+        <?php include "offcanvasDesktop.php"; ?>
       </div>
       <?php
         if($_GET['playerDesktop'] == "1"){
@@ -50,12 +50,12 @@
                         <div class="row">
                             <div class="col">
                                 <a href="?playerDesktop=1">
-                                    <img src="https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1" alt="RDL" style="width: 100%;">
+                                    <img src="https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1" alt="RDL" style="width: 100%; border-radius: 15px;">
                                 </a>
                             </div>
                             <div class="col">
                                 <a href="?playerDesktop=2">
-                                    <img src="https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1" alt="RC105" style="width: 100%;">
+                                    <img src="https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png" alt="RC105" style="width: 100%; border-radius: 15px;">
                                 </a>
                             </div>
                         </div>
