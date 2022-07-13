@@ -1,4 +1,10 @@
 <?php
+  //   RPIGroup Play
+  //   Realizzato da A.S.V. Studios APPS
+ 
+  // Versione Applicazione
+  $version_app = "0.7.13 Alpha (Only Desktop)";
+  
   // File Configurazione sito
   require "include/config.php";
 

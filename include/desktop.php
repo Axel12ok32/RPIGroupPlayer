@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="index, follow">
-    <meta name="description" content="Ascolta le radio del gruppo Radiopeopleitaly Group">
+    <meta name="description" content="<?php echo $description_site; ?>">
     <link rel="icon" type="image/png" href="<?php echo $logo_site; ?>">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
