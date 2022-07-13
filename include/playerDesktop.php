@@ -30,12 +30,12 @@
         if($_GET['playerDesktop'] == "1"){
             ?>
                 <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">Caricamento...</div>
-                <iframe src="https://www.radiodiffusionelibera.com/?proradio-popup=1" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:90.4%;width:100%;position:absolute;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
+                <iframe src="https://www.radiodiffusionelibera.com/?proradio-popup=1" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:calc(100% - 60px);width:100%;position:absolute;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
             <?php
         }elseif($_GET['playerDesktop'] == "2"){
             ?>
                 <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">Caricamento...</div>
-                <iframe src="https://www.radiocitta105.it/?proradio-popup=1" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:90.4%;width:100%;position:absolute;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
+                <iframe src="https://www.radiocitta105.it/?proradio-popup=1" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:calc(100% - 60px);width:100%;position:absolute;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
             <?php
         }else{
             ?>
