@@ -5,3 +5,4 @@ window.onload = function(){
 var body = document.getElementById("body");
 var preloader = document.getElementById("preloader");
 body.removeChild(preloader);
+

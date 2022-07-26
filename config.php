@@ -44,19 +44,22 @@ if(isMobileDevice()){
 // Radio / Flussi
 $radio_code = array(
   "1" => "RDL",
-  "2" => "RadioCitta105"
+  "2" => "Radio Città 105"
+);
+$radio_slogan = array(
+  "RDL" => "O sei fuori, o sei dei nostri",
+  "Radio Città 105" => "La radio della tua città"
 );
 $radio_logo = array(
-  "RadioCitta105" => "https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png",
+  "Radio Città 105" => "https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png",
   "RDL" => "https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1"
 );
 $radio_stream = array(
-  "RadioCitta105" => "#",
+  "Radio Città 105" => "#",
   "RDL" => "#"
 );
-
 $radio_iframe = array(
-  "RadioCitta105" => "https://www.radiocitta105.it/?proradio-popup=1",
+  "Radio Città 105" => "https://www.radiocitta105.it/?proradio-popup=1",
   "RDL" => "https://www.radiodiffusionelibera.com/?proradio-popup=1"
 )
 
