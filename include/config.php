@@ -33,12 +33,17 @@ $radio_code = array(
   "2" => "RadioCitta105"
 );
 $radio_logo = array(
-  "RadioCitta105" => "",
+  "RadioCitta105" => "https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png",
   "RDL" => "https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1"
 );
 $radio_stream = array(
   "RadioCitta105" => "#",
   "RDL" => "#"
 );
+
+$radio_iframe = array(
+  "RadioCitta105" => "https://www.radiocitta105.it/?proradio-popup=1",
+  "RDL" => "https://www.radiodiffusionelibera.com/?proradio-popup=1"
+)
 
 ?>

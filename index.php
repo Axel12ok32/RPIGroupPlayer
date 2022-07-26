@@ -3,7 +3,7 @@
   //   Realizzato da A.S.V. Studios APPS
  
   // Versione Applicazione
-  $version_app = "0.7.18 Alpha (Only Desktop)";
+  $version_app = "0.7.26 Alpha (Only Desktop)";
   
   // File Configurazione sito
   require "include/config.php";

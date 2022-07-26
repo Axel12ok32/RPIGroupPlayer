@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="it">
   <head>
-    <title><?php echo $title_site; ?></title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="robots" content="index, follow">
+    <title><?php echo $title_site; ?></title>    
     <meta name="description" content="<?php echo $description_site; ?>">
-    <meta name="mobile-web-app-capable" content="yes">
     <meta name="application-name" content="<?php echo $title_site; ?>">
     <link rel="icon" type="image/png" href="<?php echo $logo_site; ?>">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="robots" content="index, follow">    
+    <meta name="mobile-web-app-capable" content="yes">
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
@@ -27,19 +27,15 @@
         <?php include "offcanvasDesktop.php"; ?>
       </div>
       <?php
-        if($_GET['playerDesktop'] == "1"){
+        if($_GET['playerDesktop']){
+          $radio_value = $radio_code[$_GET['playerDesktop']];
             ?>
                 <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">Caricamento...</div>
-                <iframe src="https://www.radiodiffusionelibera.com/?proradio-popup=1" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:calc(100% - 60px);width:100%;position:absolute;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
-            <?php
-        }elseif($_GET['playerDesktop'] == "2"){
-            ?>
-                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">Caricamento...</div>
-                <iframe src="https://www.radiocitta105.it/?proradio-popup=1" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:calc(100% - 60px);width:100%;position:absolute;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
+                <iframe src="<?php echo $radio_iframe[$radio_value]; ?>" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:calc(100% - 60px);width:100%;position:absolute;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
             <?php
         }else{
             ?>
-                <div id="swup"  class="rpi_mfaderpage transition-fade">
+                <div class="rpi_mfaderpage">
                     <!-- contenuto -->
                     <div class="header">
                         <img src="img/RpiGroupPlayWHITE.png" alt="Logo" style="width: 315px;">
@@ -49,16 +45,22 @@
                         <h3>Seleziona la radio che vuoi ascoltare</h3>
                         <br>
                         <div class="row">
-                            <div class="col">
-                                <a href="?playerDesktop=1">
-                                    <img src="https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1" alt="RDL" style="width: 100%; border-radius: 15px;">
-                                </a>
-                            </div>
-                            <div class="col">
-                                <a href="?playerDesktop=2">
-                                    <img src="https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png" alt="RC105" style="width: 100%; border-radius: 15px;">
-                                </a>
-                            </div>
+                          <?php
+                            $radio_code_numbers = count($radio_code);
+                            echo $radio_code_numbers;
+                            $countradio = 0;
+                            while($countradio < $radio_code_numbers){
+                              $countradio++;
+                              $radio_select = $radio_code[$countradio];
+                              ?>
+                                <div class="col">
+                                  <a href="?playerDesktop=<?php echo $countradio; ?>">
+                                    <img src="<?php echo $radio_logo[$radio_select]; ?>" alt="" style="width: 100%; border-radius: 15px;">
+                                  </a>
+                                </div>
+                              <?php
+                            }
+                          ?>
                         </div>
                     </div>
                     <div class="rpi_mfooter">
@@ -68,16 +70,9 @@
             <?php
         }
       ?>
-      
-
     </div>
     <script src="js/bootstrap.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/script.js"></script>
-    <script src="https://unpkg.com/swup@latest/dist/swup.min.js"></script>
-    <script type="text/javascript">
-      import Swup from 'swup';
-      const swup = new Swup(); // only this line when included with script tag
-    </script>
   </body>
 </html>
