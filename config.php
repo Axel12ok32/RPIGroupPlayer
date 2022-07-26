@@ -27,6 +27,20 @@ function isMobileDevice(){
   return false;
 }
 
+if(isMobileDevice()){
+  $homepage = "?home";
+  $ascolta = array(
+    "1" => "?play=1",
+    "2" => "?play=2"
+  );
+}else{
+  $homepage = "?playerDesktop";
+  $ascolta = array(
+    "1" => "?playyerDesktop=1",
+    "2" => "?playyerDesktop=2"
+  );
+}
+
 // Radio / Flussi
 $radio_code = array(
   "1" => "RDL",

@@ -6,24 +6,24 @@
   $version_app = "0.7.26 Alpha (Only Desktop)";
   
   // File Configurazione sito
-  require "include/config.php";
+  require "config.php";
 
   // Check Device
   if(isMobileDevice()) {
     if(isset($_GET['play'])){
-      require "include/player.php";
+      include "include/forMobile/player.php";
     }elseif(isset($_GET['about'])){
-      require "include/about.php";
+      include "include/about.php";
     }else{
-      require "include/mobileMANUTENZIONE.php";
+      include "include/forMobile/index.php";
     }
   }else{
     if(isset($_GET['playerDesktop'])){
-      require "include/playerDesktop.php";
+      include "include/forDesktop/playerDesktop.php";
     }elseif(isset($_GET['about'])){
-      require "include/about.php";
+      include "include/about.php";
     }else{
-      require "include/desktop.php";
+      include "include/forDesktop/index.php";
     }
   }
 ?>
