@@ -20,6 +20,9 @@
     <script src="js/bootstrap.js"></script>
   </head>
   <body id="body" class="rpi_mbody" style="background: black;">
+    <div class="rpi_mpreloader" id="preloader">
+      <img src="img/RpiGroupPlayWHITE.png" alt="Logo" style="width: 315px;">
+    </div>
     <div class="rpi_mcontainer">
       <div class="nav">
         <a data-bs-toggle="offcanvas" href="#menu" role="button" aria-controls="menu"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg></a>
@@ -42,7 +45,7 @@
       <audio src="<?php echo $radio_stream[$radio_select]; ?>" class="player"></audio>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/player.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/player.js"></script>
   </body>
 </html>
