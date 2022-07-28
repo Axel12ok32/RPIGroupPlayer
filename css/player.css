@@ -1,0 +1,62 @@
+.rpi_background{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    height: calc(100% - 60px);
+    background-size: cover !important;
+    opacity: .5;
+    background-position: center center !important
+  }
+  .rpi_mfaderpage{
+    color: white;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: calc(100vh - 60px);
+    top: 60px;
+  }
+  .rpi_mfaderpage > .rpi_logoradio{
+    width: 80%;
+    margin: 25px auto 0px;
+    text-align: center;
+  }
+  .rpi_mfaderpage > .rpi_logoradio > img{
+    width: 100%;
+    border-radius: 15px;
+  }
+  .rpi_mfaderpage > .rpi_logoradio > p{
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: 0px 2px 3px #000;
+  }
+  p.rpi_title{
+    font-size: 1.35rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  p.rpi_artist{
+    font-size: 1.15rem;
+    margin-top: -15px !important;
+  }
+  .rpi_mfaderpage > a{
+    position: inherit;
+    text-align: center;
+    color: white;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid white;
+    padding: 12px 12px 6px 12px;
+    border-radius: 100%;
+  }
+  .rpi_mfaderpage > a > i{
+    font-size: 35px;
+  }
+  .player{
+    position: fixed;
+    top: -100px;
+  }

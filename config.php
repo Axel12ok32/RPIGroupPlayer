@@ -55,8 +55,8 @@ $radio_logo = array(
   "RDL" => "https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1"
 );
 $radio_stream = array(
-  "Radio Città 105" => "#",
-  "RDL" => "#"
+  "Radio Città 105" => "https://asvradiostream.asvstudios.tk/listen/radiocitta105/radio.mp3",
+  "RDL" => "https://asvradiostream.asvstudios.tk/listen/radiodiffusionelibera/radio.mp3"
 );
 $radio_iframe = array(
   "Radio Città 105" => "https://www.radiocitta105.it/?proradio-popup=1",
