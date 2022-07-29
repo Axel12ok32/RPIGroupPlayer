@@ -43,7 +43,7 @@
     margin-top: -15px !important;
   }
   .rpi_mfaderpage > a{
-    position: inherit;
+    position: fixed;
     text-align: center;
     color: white;
     bottom: 50px;

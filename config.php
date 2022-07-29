@@ -36,8 +36,8 @@ if(isMobileDevice()){
 }else{
   $homepage = "?playerDesktop";
   $ascolta = array(
-    "1" => "?playyerDesktop=1",
-    "2" => "?playyerDesktop=2"
+    "1" => "?playerDesktop=1",
+    "2" => "?playerDesktop=2"
   );
 }
 
