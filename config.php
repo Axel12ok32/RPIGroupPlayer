@@ -33,6 +33,10 @@ if(isMobileDevice()){
     "1" => "?play=1",
     "2" => "?play=2"
   );
+  if(isset($_GET['playerDesktop'])){
+    $valueIdRadio = $_GET['playerDesktop'];
+    header("Location: ?play=$valueIdRadio");
+  }
 }else{
   $homepage = "?playerDesktop";
   $ascolta = array(
@@ -55,8 +59,12 @@ $radio_logo = array(
   "RDL" => "https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1"
 );
 $radio_stream = array(
-  "Radio Città 105" => "https://asvradiostream.asvstudios.tk/listen/radiocitta105/radio.mp3",
-  "RDL" => "https://asvradiostream.asvstudios.tk/listen/radiodiffusionelibera/radio.mp3"
+  "Radio Città 105" => "https://asvradiostream.asvstudios.it/listen/radiocitta105/radio.mp3",
+  "RDL" => "https://asvradiostream.asvstudios.it/listen/radiodiffusionelibera/radio.mp3"
+);
+$radio_api = array(
+  "Radio Città 105" => "https://asvradiostream.asvstudios.it/",
+  "RDL" => "https://asvradiostream.asvstudios.it/"
 );
 $radio_iframe = array(
   "Radio Città 105" => "https://www.radiocitta105.it/?proradio-popup=1",

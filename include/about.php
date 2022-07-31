@@ -23,7 +23,7 @@
             </div>
             <?php
                 if($_GET['about'] == "chisiamo"){
-                ?>   
+                ?>
                     <div class="content">
                         <h3>Chi Siamo?</h3>
                         <br>
@@ -52,7 +52,11 @@
                     <div class="content">
                         <h3>Contatti</h3>
                         <br>
-                        <p>Al momento i contatti non sono disponibili... Attendi il rilascio della prossima versione dell'app.</p>
+                        <p>Rimani sempre in contatto con il nostro staff, e suggerisci qualche funzione che deve essere implementato</p>
+                        <br>
+                        <p><b>Team Developing:</b><br>dev@rpigroup.it</p>
+                        <p><b>Aggiungi la tua radio:</b><br>addnewradio@rpigroup.it</p>
+                        <p><b>Segnalazioni Abuso:</b><br>abuse@rpigroup.it</p>
                     </div>
                 <?php
                 }else{
@@ -62,7 +66,7 @@
                         header("Location: ?playerDesktop");
                     }
                 }
-            ?>   
+            ?>
             <div class="rpi_mfooter">
             App powered by A.S.V. Studios APPS
             </div>
