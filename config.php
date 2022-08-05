@@ -4,8 +4,6 @@
 $title_site = "RPIGroup Play";
 $description_site = "Ascolta le radio del gruppo Radiopeopleitaly Group";
 $logo_site = "./img/logoapp.png";
-$favicon_site = "";
-
 $thisurl = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 
 
