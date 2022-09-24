@@ -31,6 +31,10 @@ if(isMobileDevice()){
     "1" => "?play=1",
     "2" => "?play=2"
   );
+  $visualizza = array(
+    "1" => "?tv=1",
+    "2" => "?tv=2"
+  );
   if(isset($_GET['playerDesktop'])){
     $valueIdRadio = $_GET['playerDesktop'];
     header("Location: ?play=$valueIdRadio");
@@ -40,6 +44,10 @@ if(isMobileDevice()){
   $ascolta = array(
     "1" => "?playerDesktop=1",
     "2" => "?playerDesktop=2"
+  );
+  $visualizza = array(
+    "1" => "?tv=1",
+    "2" => "?tv=2"
   );
 }
 
@@ -59,6 +67,10 @@ $radio_logo = array(
 $radio_stream = array(
   "Radio Città 105" => "https://asvradiostream.asvstudios.it/listen/radiocitta105/radio.mp3",
   "RDL" => "https://asvradiostream.asvstudios.it/listen/radiodiffusionelibera/radio.mp3"
+);
+$radio_stream_video = array(
+  "Radio Città 105" => "https://asvvideostream.asvstudios.it/LiveApp/streams/streamprincipale.m3u8",
+  "RDL" => "https://asvvideostream.asvstudios.it/LiveApp/streams/rdlradio.m3u8"
 );
 $radio_api = array(
   "Radio Città 105" => "https://asvradiostream.asvstudios.it/",
