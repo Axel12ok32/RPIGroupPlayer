@@ -2,6 +2,22 @@ window.onload = function(){
   $("#preloader").fadeOut(150);
 }
 
+function disable_f5(e)
+{
+  if ((e.which || e.keyCode) == 116)
+  {
+      e.preventDefault();
+  }
+}
+
+$(document).ready(function(){
+    $(document).bind("keydown", disable_f5);    
+});
+
+window.addEventListener('contextmenu', function (e) { 
+  e.preventDefault(); 
+}, false);
+
 var body = document.getElementById("body");
 var preloader = document.getElementById("preloader");
 body.removeChild(preloader);

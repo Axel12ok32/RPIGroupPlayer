@@ -6,7 +6,7 @@
 <meta name="msapplication-tap-highlight" content="no">
 <meta name="HandheldFriendly" content="True">
 <meta name="MobileOptimized" content="320"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="viewport" content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="robots" content="index, follow">    
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="application-name" content="RPIGroup Play">
