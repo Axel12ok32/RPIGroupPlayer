@@ -29,7 +29,8 @@ if(isMobileDevice()){
   $homepage = "?home";
   $ascolta = array(
     "1" => "?play=1",
-    "2" => "?play=2"
+    "2" => "?play=2",
+    "3" => "?play=3"
   );
   $visualizza = array(
     "1" => "?tv=1",
@@ -43,7 +44,8 @@ if(isMobileDevice()){
   $homepage = "?playerDesktop";
   $ascolta = array(
     "1" => "?playerDesktop=1",
-    "2" => "?playerDesktop=2"
+    "2" => "?playerDesktop=2",
+    "3" => "?play=3"
   );
   $visualizza = array(
     "1" => "?tv=1",
@@ -54,19 +56,23 @@ if(isMobileDevice()){
 // Radio / Flussi
 $radio_code = array(
   "1" => "RDL",
-  "2" => "Radio Città 105"
+  "2" => "Radio Città 105",
+  "3" => "RDL Xmas"
 );
 $radio_slogan = array(
   "RDL" => "O sei fuori, o sei dei nostri",
-  "Radio Città 105" => "La radio della tua città"
+  "Radio Città 105" => "La radio della tua città",
+  "RDL Xmas" => "La migliore musica natalizia, trasmessa H24 - DISPONIBILE DAL 1 DICEMBRE"
 );
 $radio_logo = array(
   "Radio Città 105" => "https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png",
-  "RDL" => "https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1"
+  "RDL" => "https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1",
+  "RDL Xmas" => "https://www.radiodiffusionelibera.com/wp-content/uploads/2020/06/RDL-Xmas.png"
 );
 $radio_stream = array(
-  "Radio Città 105" => "https://asvradiorelay.asvstudios.it/radio/8020/auto.ogg",
-  "RDL" => "https://asvradiorelay.asvstudios.it/radio/8000/radio.aac"
+  "Radio Città 105" => "https://asvradiorelay.asvstudios.it/radio/8020/radio.mp3",
+  "RDL" => "https://asvradiorelay.asvstudios.it/radio/8000/radio.mp3",
+  "RDL Xmas" => "https://asvradiostream.asvstudios.it/listen/rdlxmas/radio.mp3"
 );
 $radio_stream_video = array(
   "Radio Città 105" => "https://asvvideostream.asvstudios.it/LiveApp/streams/streamprincipale.m3u8",

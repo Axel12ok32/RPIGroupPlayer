@@ -31,7 +31,7 @@
           <i class="material-icons" id="play-pause">play_arrow</i>
         </a>
       </div>
-      <audio src="<?php echo $radio_stream[$radio_select]; ?>" class="player"></audio>
+      <audio src="<?php echo $radio_stream[$radio_select]; ?>" preload="true" class="player"></audio>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="js/script.js"></script>

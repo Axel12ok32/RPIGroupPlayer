@@ -3,7 +3,7 @@
   //   Realizzato da A.S.V. Studios APPS
 
   // Versione Applicazione
-  $version_app = "0.9.26 Alpha";
+  $version_app = "0.11.29 Alpha";
 
   // File Configurazione sito
   require "config.php";
@@ -22,6 +22,8 @@
   }else{
     if(isset($_GET['playerDesktop'])){
       include "include/forDesktop/playerDesktop.php";
+    }elseif(isset($_GET['play'])){
+      include "include/forMobile/player.php";
     }elseif(isset($_GET['about'])){
       include "include/about.php";
     }elseif(isset($_GET['tv'])){
