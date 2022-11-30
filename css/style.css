@@ -94,6 +94,9 @@ html.is-animating .transition-fade {
   padding: 15px;
   background: #0f1964;
   color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
 }
 
 .rpi_mcontainer > .nav > a{
@@ -150,7 +153,7 @@ html.is-animating .transition-fade {
 }
 
 .rpi_mcontainer > .rpi_mfaderpage > .header > img{
-  margin-top: 35px;
+  margin-top: 90px;
 }
 
 .rpi_mcontainer > .rpi_mfaderpage > .header > p.subtitle{
