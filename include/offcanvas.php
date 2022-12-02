@@ -9,9 +9,14 @@
     <a href="?about=comeascoltarci">Come funziona l'applicazione</a>
     <a href="?about=contatti">Contatti</a>
     <br>
+    <p><b>Radio Web/FM</b></p>
     <a href="<?php echo $ascolta[1]; ?>">RDL Radio Diffusione Libera</a>
     <a href="<?php echo $ascolta[2]; ?>">Radio Città 105</a>
+    <br>
+    <p><b>Radio Tematiche</b></p>
     <a href="<?php echo $ascolta[3]; ?>">RDL XMAS</a>
+    <!-- <br> -->                                                   <!-- Al momento, non attivo -->
+    <!-- <p><b>Radiovisione Web</b></p> -->                         <!-- Al momento, non attivo -->
     <!-- <a href="<?php echo $visualizza[1]; ?>">RDL WebTV</a> -->  <!-- Al momento, non attivo -->
     <!-- <a href="<?php echo $visualizza[2]; ?>">RC105 TV</a> -->   <!-- Al momento, non attivo -->
     <br>

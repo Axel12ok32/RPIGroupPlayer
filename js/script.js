@@ -64,7 +64,7 @@ var body = document.getElementById("body");
 var preloader = document.getElementById("preloader");
 body.removeChild(preloader);
 
-function play_audio(task) {
+/* function play_audio(task) {
   if(task == 'play'){
       $(".player").trigger('play');
       document.getElementById("play-pause").innerHTML = "pause";
@@ -76,4 +76,4 @@ function play_audio(task) {
       document.getElementById("play-pause").innerHTML = "play_arrow";
       document.getElementById("buttonPlayer").setAttribute('onclick','play_audio(\'play\')');
   }
-};
+}; */
