@@ -12,8 +12,8 @@
     <a href="<?php echo $ascolta[1]; ?>">RDL Radio Diffusione Libera</a>
     <a href="<?php echo $ascolta[2]; ?>">Radio Città 105</a>
     <a href="<?php echo $ascolta[3]; ?>">RDL XMAS</a>
-    <a href="<?php echo $visualizza[1]; ?>">RDL WebTV</a>
-    <a href="<?php echo $visualizza[2]; ?>">RC105 TV</a>
+    <!-- <a href="<?php echo $visualizza[1]; ?>">RDL WebTV</a> -->  <!-- Al momento, non attivo -->
+    <!-- <a href="<?php echo $visualizza[2]; ?>">RC105 TV</a> -->   <!-- Al momento, non attivo -->
     <br>
     <!-- <a href="" target="_blank">Facebook</a>
     <a href="" target="_blank">Instagram</a> -->

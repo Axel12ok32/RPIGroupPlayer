@@ -62,7 +62,7 @@ $radio_code = array(
 $radio_slogan = array(
   "RDL" => "O sei fuori, o sei dei nostri",
   "Radio Città 105" => "La radio della tua città",
-  "RDL Xmas" => "La migliore musica natalizia, trasmessa H24 - DISPONIBILE DAL 1 DICEMBRE"
+  "RDL Xmas" => "La migliore musica natalizia, trasmessa H24"
 );
 $radio_logo = array(
   "Radio Città 105" => "https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png",
