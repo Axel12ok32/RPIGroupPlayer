@@ -59,6 +59,37 @@
                         <p><b>Segnalazioni Abuso:</b><br>abuse@rpigroup.it</p>
                     </div>
                 <?php
+                }elseif($_GET['about'] == "changelog"){
+                  ?>
+                    <div class="content" style="text-align: left;">
+                        <h3 style="text-align: center">CHANGELOG</h3>
+                        <p style="text-align: center">Cosa c'è di nuovo su RPIGroup Play?</p>
+                        <br><hr><br>
+                        <p><b>Versione 0.12.2 Alpha</b></p>
+                        <p>
+                          • Corretto il problema del caricamento del "Player Mobile" su iOS e derivati. <br>
+                          • Corretto e aggiunto nuovi script del "Player Mobile" <br>
+                          • Aggiornato slogan dell'emittente "RDL XMAS" <br>
+                          • Aggiunto il Changelog
+                        </p>
+                        <br><hr><br>
+                        <p><b>Versione 0.11.30 Alpha</b></p>
+                        <p>
+                          • Corretto la visualizzazione del "Player Mobile" <br>
+                          • Aggiornata la lista emittenti nel menu in alto sinistra <br>
+                          • Rimosse momentaneamente le WebTV nel menu in alto sinistra
+                        </p>
+                        <br><hr><br>
+                        <p><b>Versione 0.11.29 Alpha</b></p>
+                        <p>
+                          • Aggiunta nuova emittente "RDL XMAS" <br>
+                          • Corretta la visualizzazione del "PLAYER DESKTOP" <br>
+                          • Corretta la visualizzazione della lista emittenti in "Home Desktop" e "Home Mobile" <br>
+                          • Abilitato il "Player Mobile" anche in ambiente Desktop <br>
+                          • Aggiornato script che impedisce il refresh della pagina da Mobile
+                        </p>
+                    </div>
+                  <?php
                 }else{
                     if(isMobileDevice()){
                         header("Location: /");
