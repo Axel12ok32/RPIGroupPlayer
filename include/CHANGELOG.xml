@@ -7,8 +7,8 @@
         <logs>
             <log>Realizzazione file XML per il Changelog</log>
             <log>Aggiunto pulsante per la visualizzazione del Changelog</log>
-            <log>Correzzione pagina About per la visualizzazione del Changelog</log>
-            <log>Correzzione visualizzazione del Home Page</log>
+            <log>Correzione pagina About per la visualizzazione del Changelog</log>
+            <log>Correzione visualizzazione del Home Page</log>
             <log>Reso automatico il cambio di versione dell'app in base all'ultima versione disponibile e dichiarata all'intero del Changelog</log>
         </logs>
     </version>
@@ -40,6 +40,41 @@
             <log>Corretta la visualizzazione della lista emittenti in "Home Desktop" e "Home Mobile"</log>
             <log>Abilitato il "Player Mobile" anche in ambiente Desktop</log>
             <log>Aggiornato script che impedisce il refresh della pagina da Mobile</log>
+        </logs>
+    </version>
+
+    <version>
+        <number>0.9.26 Alpha</number>
+        <logs>
+            <log>Cambiata l'URL del flusso audio di RDL e RC105</log>
+            <log>Correzione e bugfix all'interno dello stile dell'app</log>
+            <log>Correzione e bugfix all'interno dei metatag</log>
+            <log>Aggiunto script di disabilitazione pulsante F5 da tastiera</log>
+        </logs>
+    </version>
+
+    <version>
+        <number>0.9.24 Alpha</number>
+        <logs>
+            <log>Correzione e bugfix player video</log>
+        </logs>
+    </version>
+
+    <version>
+        <number>0.9.23 Alpha</number>
+        <logs>
+            <log>Aggiunto player video</log>
+            <log>Aggiunto collegamenti dei canali video delle emittenti</log>
+            <log>Aggiunto in configurazione gli URL dei canali video delle emittenti</log>
+        </logs>
+    </version>
+
+    <version>
+        <number>0.7.31 Alpha</number>
+        <logs>
+            <log>Correzione e bugfix all'interno della configurazione dell'app</log>
+            <log>Rimozione dello script per lo "scroll to update page" da smartphone</log>
+            <log>Aggiunti i metodi di contatto in About</log>
         </logs>
     </version>
 
