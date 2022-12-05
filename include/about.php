@@ -65,7 +65,6 @@
                         <h3 style="text-align: center">CHANGELOG</h3>
                         <p style="text-align: center">Cosa c'è di nuovo su RPIGroup Play?</p>
                         <?php
-                          $changelog = simplexml_load_file("./include/CHANGELOG.xml") or die("Errore: Impossibile accedere al file CHANGELOG");
                           foreach($changelog->version as $version){
                             echo "<hr style=\"margin: 35px 0px;\">";
                             echo "<p style=\"padding-top: 0px;\"><b>Versione ".$version->number."</b></p>";
