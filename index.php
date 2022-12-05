@@ -3,7 +3,8 @@
   //   Realizzato da A.S.V. Studios APPS
 
   // Versione Applicazione
-  $version_app = "0.12.2 Alpha";
+  $changelog = simplexml_load_file("./include/CHANGELOG.xml") or die("Errore: Impossibile accedere al file CHANGELOG");
+  $version_app = $changelog->version->number[0];
 
   // File Configurazione sito
   require "config.php";

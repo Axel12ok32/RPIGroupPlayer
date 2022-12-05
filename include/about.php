@@ -64,30 +64,16 @@
                     <div class="content" style="text-align: left;">
                         <h3 style="text-align: center">CHANGELOG</h3>
                         <p style="text-align: center">Cosa c'è di nuovo su RPIGroup Play?</p>
-                        <br><hr><br>
-                        <p><b>Versione 0.12.2 Alpha</b></p>
-                        <p>
-                          • Corretto il problema del caricamento del "Player Mobile" su iOS e derivati. <br>
-                          • Corretto e aggiunto nuovi script del "Player Mobile" <br>
-                          • Aggiornato slogan dell'emittente "RDL XMAS" <br>
-                          • Aggiunto il Changelog
-                        </p>
-                        <br><hr><br>
-                        <p><b>Versione 0.11.30 Alpha</b></p>
-                        <p>
-                          • Corretto la visualizzazione del "Player Mobile" <br>
-                          • Aggiornata la lista emittenti nel menu in alto sinistra <br>
-                          • Rimosse momentaneamente le WebTV nel menu in alto sinistra
-                        </p>
-                        <br><hr><br>
-                        <p><b>Versione 0.11.29 Alpha</b></p>
-                        <p>
-                          • Aggiunta nuova emittente "RDL XMAS" <br>
-                          • Corretta la visualizzazione del "PLAYER DESKTOP" <br>
-                          • Corretta la visualizzazione della lista emittenti in "Home Desktop" e "Home Mobile" <br>
-                          • Abilitato il "Player Mobile" anche in ambiente Desktop <br>
-                          • Aggiornato script che impedisce il refresh della pagina da Mobile
-                        </p>
+                        <?php
+                          $changelog = simplexml_load_file("./include/CHANGELOG.xml") or die("Errore: Impossibile accedere al file CHANGELOG");
+                          foreach($changelog->version as $version){
+                            echo "<hr style=\"margin: 35px 0px;\">";
+                            echo "<p style=\"padding-top: 0px;\"><b>Versione ".$version->number."</b></p>";
+                            foreach($version->logs->log as $log_print){
+                              echo "<p style=\"padding-top: 0px; text-align: left;\">• ".$log_print."</p>";
+                            }
+                          }
+                        ?>
                     </div>
                   <?php
                 }else{

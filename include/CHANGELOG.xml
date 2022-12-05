@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<changelog>
+
+    <version>
+        <number>0.12.5 Aplha</number>
+        <logs>
+            <log>Realizzazione file XML per il Changelog</log>
+            <log>Aggiunto pulsante per la visualizzazione del Changelog</log>
+            <log>Correzzione pagina About per la visualizzazione del Changelog</log>
+            <log>Correzzione visualizzazione del Home Page</log>
+            <log>Reso automatico il cambio di versione dell'app in base all'ultima versione disponibile e dichiarata all'intero del Changelog</log>
+        </logs>
+    </version>
+
+    <version>
+        <number>0.12.2 Alpha</number>
+        <logs>
+            <log>Corretto il problema del caricamento del "Player Mobile" su iOS e derivati.</log>
+            <log>Corretto e aggiunto nuovi script del "Player Mobile"</log>
+            <log>Aggiornato slogan dell'emittente "RDL XMAS"</log>
+            <log>Aggiunto il Changelog</log>
+        </logs>
+    </version>
+
+    <version>
+        <number>0.11.30 Alpha</number>
+        <logs>
+            <log>Corretto la visualizzazione del "Player Mobile"</log>
+            <log>Aggiornata la lista emittenti nel menu in alto sinistra</log>
+            <log>Rimosse momentaneamente le WebTV nel menu in alto sinistra</log>
+        </logs>
+    </version>
+
+    <version>
+        <number>0.11.29 Alpha</number>
+        <logs>
+            <log>Aggiunta nuova emittente "RDL XMAS"</log>
+            <log>Corretta la visualizzazione del "PLAYER DESKTOP"</log>
+            <log>Corretta la visualizzazione della lista emittenti in "Home Desktop" e "Home Mobile"</log>
+            <log>Abilitato il "Player Mobile" anche in ambiente Desktop</log>
+            <log>Aggiornato script che impedisce il refresh della pagina da Mobile</log>
+        </logs>
+    </version>
+
+</changelog>
