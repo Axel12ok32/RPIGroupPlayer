@@ -3,7 +3,7 @@
 <changelog>
 
     <version>
-        <number>0.12.6 Alpha (Last Release)</nunber>
+        <number>0.12.6 Alpha (Last Release)</number>
         <logs>
             <log>Corretto bug inizializzazione app per iOS e iPadOS</log>
             <log>Aggiunto script di controllo gestione app per iOS e iPadOS</log>
