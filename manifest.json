@@ -1,10 +1,13 @@
 {
     "name": "RPIGroup Play",
+    "short_name": "RPIGroup Play",
+    "start_url": "https://app.rpigroup.it", 
+    "display": "standalone",
     "icons": [
       {
-        "src": "\/img\/logoapp.png",
+        "src": "/img/logoapp.png",
         "sizes": "36x36",
-        "type": "image\/png",
+        "type": "image/png",
         "density": "0.75"
       }
     ]

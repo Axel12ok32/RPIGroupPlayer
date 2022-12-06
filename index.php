@@ -3,7 +3,7 @@
   //   Realizzato da A.S.V. Studios APPS
 
   // Versione Applicazione
-  $changelog = simplexml_load_file("./include/CHANGELOG.xml") or die("Errore: Impossibile accedere al file CHANGELOG");
+  $changelog = simplexml_load_file("./CHANGELOG.xml") or die("Errore: Impossibile accedere al file CHANGELOG");
   $version_app = $changelog->version->number[0];
 
   // File Configurazione sito

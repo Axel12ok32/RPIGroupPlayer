@@ -37,6 +37,24 @@ window.onload = function(){
 	}
 })( this );
 
+$(document).ready(function(){
+    // iOS web app full screen hacks.
+    if(window.navigator.standalone == true) {
+        // make all link remain in web app mode.
+        $('a').click(function() {
+            window.location = $(this).attr('href');
+            return false;
+        });
+    }
+
+	if (document.webkitFullscreenElement) {
+		document.webkitCancelFullScreen();
+	  } else {
+		const el = document.documentElement;
+		el.webkitRequestFullscreen(Element.ALLOW_KEYBOARD_INPUT);
+	  }
+});
+
 function disable_f5(e)
 {
   if ((e.which || e.keyCode) == 116)

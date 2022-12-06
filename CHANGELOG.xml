@@ -3,6 +3,15 @@
 <changelog>
 
     <version>
+        <number>0.12.6 Alpha (Last Release)</nunber>
+        <logs>
+            <log>Corretto bug inizializzazione app per iOS e iPadOS</log>
+            <log>Aggiunto script di controllo gestione app per iOS e iPadOS</log>
+            <log>Correzione e bugfix di problematiche varie</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.12.5 Aplha</number>
         <logs>
             <log>Realizzazione file XML per il Changelog</log>
