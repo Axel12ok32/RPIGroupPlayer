@@ -2,9 +2,20 @@
 
 <changelog>
 
+    <!-- <version>
+        <number>0.20.1 Beta</number>
+        <logs>
+            <log>L'app entra ufficialmente nello stato di Beta-testing.</log>
+            <log>Cambiata la modalità di indicazione della versione, non più basata sulla data di aggiornamento, ma sul numero di update dell'app</log>
+            <log>Avviata ufficialmente la "Roadmap" sulla Versione 1.0.0</log>            
+        </logs>
+    </version> -->
+
     <version>
         <number>0.12.6 Alpha (Last Release)</number>
         <logs>
+            <log>Aggiornata la lista emittenti nel menu in alto sinistra</log>
+            <log>Aggiornate le pagine "Cosa è RPIGRPUP PLAY", "COME FUNZIONA L'APP" e "HAI BISOGNO DI AIUTO"</log>
             <log>Corretto bug inizializzazione app per iOS e iPadOS</log>
             <log>Aggiunto script di controllo gestione app per iOS e iPadOS</log>
             <log>Correzione e bugfix di problematiche varie</log>

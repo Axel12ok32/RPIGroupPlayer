@@ -13,8 +13,8 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <meta name="apple-mobile-web-app-title" content="RPIGroup Play">
-<meta name="theme-color" content="#2a377e">
-<meta name="apple-mobile-web-app-status-bar-style" content="#2a377e">
+<meta name="theme-color" content="#0f1964">
+<meta name="apple-mobile-web-app-status-bar-style" content="#0f1964">
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/style.css">

@@ -4,10 +4,7 @@
     <button type="button" class="rpi_btn_close" data-bs-dismiss="offcanvas" aria-label="Close">X</button>
   </div>
   <div class="offcanvas-body">
-    <a href="<?php echo $homepage; ?>">Home</a>
-    <a href="?about=chisiamo">Chi Siamo</a>
-    <a href="?about=comeascoltarci">Come funziona l'applicazione</a>
-    <a href="?about=contatti">Contatti</a>
+    <a href="<?php echo $homepage; ?>">Home Page</a>
     <br>
     <p><b>Radio Web/FM</b></p>
     <a href="<?php echo $ascolta[1]; ?>">RDL Radio Diffusione Libera</a>
@@ -20,9 +17,11 @@
     <!-- <a href="<?php echo $visualizza[1]; ?>">RDL WebTV</a> -->  <!-- Al momento, non attivo -->
     <!-- <a href="<?php echo $visualizza[2]; ?>">RC105 TV</a> -->   <!-- Al momento, non attivo -->
     <br>
+    <a href="?about=contatti">Hai bisogno di aiuto?</a>
     <!-- <a href="" target="_blank">Facebook</a>
     <a href="" target="_blank">Instagram</a> -->
     <div class="offcanvas_footer" style="position: absolute; bottom: 25px; font-size: 0.75rem; color: #ffffffaa;">
+      <a onclick="location.href='?about=chisiamo'" style="cursor: pointer;">Cosa è RPIGroup Play?</a> • <a onclick="location.href='?about=comeascoltarci'" style="cursor: pointer;">Come funziona l'app</a><br>
       Versione App: <?php echo $version_app; ?> • <a onclick="location.href='?about=changelog'" style="cursor: pointer;">Changelog</a>
     </div>
   </div>

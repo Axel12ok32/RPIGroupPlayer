@@ -23,58 +23,13 @@
             </div>
             <?php
                 if($_GET['about'] == "chisiamo"){
-                ?>
-                    <div class="content">
-                        <h3>Chi Siamo?</h3>
-                        <br>
-                        <p style="text-align: justify;">"RPIGroup Play" è la App - per smartphone e computer - ufficiale del gruppo RadioPeopleItaly Group, gestita e realizzata dallo studio A.S.V. Studios.</p>
-                        <p style="text-align: justify;">L'applicazione, è stata sviluppata per unire tutte le emittenti radiofoniche del gruppo, in un'unico portale, in grado di aggregare più flussi e trasmetterli all'interno di un singolo contenitore.</p>
-                        <br><p style="text-align: justify;">Per conoscere la storia del gruppo, ti consigliamo di chiudere l'app e visionare il nostro sito RPIGroup.it oppure la pagina dedicata sul sito del nostro studio.</p>
-                     </div>
-                <?php
+                  include "./include/about/chisiamo.php";
                 }elseif($_GET['about'] == "comeascoltarci"){
-                ?>
-                    <div class="content">
-                        <h3>Come Funziona l'app?</h3>
-                        <br>
-                        <p style="text-align: justify;">Il funzionamento dell'applicazione, è più semplice del previsto. Tutto ciò che ti serve è una connessione Internet, un browser e il link per accedere alla WebApp.</p>
-                        <p style="text-align: justify;"><b>Da COMPUTER</b> ti basterà cliccare sul pulsante "Ascolta RPIGroup Play", per poi selezionare la tua radio preferita.</p>
-                        <p style="text-align: justify;"><b>Da SMARTPHONE</b>ti basterà semplicemente selezionare la tua radio preferita, in quanto la webapp capisce perfettamente se sei da smartphone o da computer.</p>
-                        <p style="text-align: justify;">Una volta selezionato la propria radio preferita, quello che bisognerà fare è quello di cliccare sul pulsante "Play" per avviare la riproduzione dell'emittente.</p>
-                        <br><br>
-                        <h4>Come faccio ad aggiornare l'applicazione?</h4>
-                        <br>
-                        <p style="text-align: justify;">Niente panico! Visto ché si tratta di una applicazione web, gli aggiornamenti sono del tutto automatici. Basterà solo aggiornare la pagina oppure continuare a navigare all'interno dell'app, modo tale da far ricevere le nuove funzionalità automaticamente.</p>
-                    </div>
-                <?php
+                  include "./include/about/howtoworks.php";
                 }elseif($_GET['about'] == "contatti"){
-                ?>
-                    <div class="content">
-                        <h3>Contatti</h3>
-                        <br>
-                        <p>Rimani sempre in contatto con il nostro staff, e suggerisci qualche funzione che deve essere implementato</p>
-                        <br>
-                        <p><b>Team Developing:</b><br>dev@rpigroup.it</p>
-                        <p><b>Aggiungi la tua radio:</b><br>addnewradio@rpigroup.it</p>
-                        <p><b>Segnalazioni Abuso:</b><br>abuse@rpigroup.it</p>
-                    </div>
-                <?php
+                  include "./include/about/contatti.php";
                 }elseif($_GET['about'] == "changelog"){
-                  ?>
-                    <div class="content" style="text-align: left;">
-                        <h3 style="text-align: center">CHANGELOG</h3>
-                        <p style="text-align: center">Cosa c'è di nuovo su RPIGroup Play?</p>
-                        <?php
-                          foreach($changelog->version as $version){
-                            echo "<hr style=\"margin: 35px 0px;\">";
-                            echo "<p style=\"padding-top: 0px;\"><b>Versione ".$version->number."</b></p>";
-                            foreach($version->logs->log as $log_print){
-                              echo "<p style=\"padding-top: 0px; text-align: left;\">• ".$log_print."</p>";
-                            }
-                          }
-                        ?>
-                    </div>
-                  <?php
+                  include "./include/about/changelog.php";
                 }else{
                     if(isMobileDevice()){
                         header("Location: /");
