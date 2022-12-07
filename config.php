@@ -25,6 +25,20 @@ function isMobileDevice(){
   return false;
 }
 
+function isMobileDeviceIOS(){
+  $aMobileUA = array(
+    '/iphone/i' => 'iPhone',
+    '/ipod/i' => 'iPod',
+    '/ipad/i' => 'iPad'
+  );
+  foreach($aMobileUA as $sMobileKey => $sMobileOS){
+    if(preg_match($sMobileKey, $_SERVER['HTTP_USER_AGENT'])){
+      return true;
+    }
+  }
+  return false;
+}
+
 if(isMobileDevice()){
   $homepage = "?home";
   $ascolta = array(

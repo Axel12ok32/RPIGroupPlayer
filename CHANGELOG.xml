@@ -2,14 +2,16 @@
 
 <changelog>
 
-    <!-- <version>
-        <number>0.20.1 Beta</number>
+    <version>
+        <number>0.20.0 Beta</number>
         <logs>
             <log>L'app entra ufficialmente nello stato di Beta-testing.</log>
             <log>Cambiata la modalità di indicazione della versione, non più basata sulla data di aggiornamento, ma sul numero di update dell'app</log>
-            <log>Avviata ufficialmente la "Roadmap" sulla Versione 1.0.0</log>            
+            <log>Avviata ufficialmente la "Roadmap" sulla Versione 1.0.0</log>
+            <log>Aggiunto script per iOS e iPadOS sul rilevamento uso browser/app.</log>
+            <log>Correzione e bugfix script rilevamento app Android</log>
         </logs>
-    </version> -->
+    </version>
 
     <version>
         <number>0.12.6 Alpha (Last Release)</number>

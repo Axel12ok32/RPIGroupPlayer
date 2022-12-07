@@ -20,7 +20,7 @@ body.rpi_dbody{
   color: white;
 }
 
-div.rpi_dbox{
+div.rpi_dbox, div.rpi_dbox_mobile{
   position: fixed;
   top: 50%;
   left: 50%;
@@ -32,15 +32,25 @@ div.rpi_dbox{
   width: 500px;
 }
 
-div.rpi_dbox > h1.title{
+div.rpi_dbox_mobile {
+  width: 90%;
+  max-width: 450px;
+  color: white;
+  border-radius: 10px;
+  max-height: 475px;
+  overflow: auto;
+  
+}
+
+div.rpi_dbox > h1.title, div.rpi_dbox_mobile > h1.title{
   margin-bottom: 0px;
 }
 
-div.rpi_dbox > hr{
+div.rpi_dbox > hr, div.rpi_dbox_mobile > hr{
   margin: 2rem 0;
 }
 
-div.rpi_dbox > .rpi_dbtn{
+div.rpi_dbox > .rpi_dbtn, div.rpi_dbox_mobile > .rpi_dbtn{
   border: none;
   border-radius: 50px;
   padding: 10px 20px;
@@ -68,7 +78,7 @@ html.is-animating .transition-fade {
   opacity: 0;
 }
 
-#preloader{
+#preloader, .rpi_mpreloader{
   position: fixed;
   top: 0;
   left: 0;
@@ -79,7 +89,7 @@ html.is-animating .transition-fade {
   z-index: 1000;
 }
 
-#preloader > img{
+#preloader > img, .rpi_mpreloader > img{
   position: fixed;
   top: 50%;
   left: 50%;
