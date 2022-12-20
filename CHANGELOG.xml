@@ -3,6 +3,15 @@
 <changelog>
 
     <version>
+        <number>0.21.0 Beta</number>
+        <logs>
+            <log>Realizzazione del nuovo player interattivo. Disponibile per smartphone e desktop (Al momento, è disponibile solo per l'emittente RDL)</log>
+            <log>Disattivato il precedente player mobile. Verrà riattivato esclusivamente per "emittenti" sprovviste di pagine dinamiche</log>
+            <log>Correzione e bugfix di problematiche varie</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.20.0 Beta</number>
         <logs>
             <log>L'app entra ufficialmente nello stato di Beta-testing.</log>

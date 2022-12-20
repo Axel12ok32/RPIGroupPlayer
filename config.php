@@ -42,30 +42,33 @@ function isMobileDeviceIOS(){
 if(isMobileDevice()){
   $homepage = "?home";
   $ascolta = array(
-    "1" => "?play=1",
+    "1" => "?playnew=1",
     "2" => "?play=2",
     "3" => "?play=3"
   );
-  $visualizza = array(
-    "1" => "?tv=1",
-    "2" => "?tv=2"
-  );
   if(isset($_GET['playerDesktop'])){
     $valueIdRadio = $_GET['playerDesktop'];
-    header("Location: ?play=$valueIdRadio");
+    if($valueIdRadio = "1"){
+      header("Location: ?playnew=$valueIdRadio");
+    }else{
+      header("Location: ?play=$valueIdRadio");
+    }
+    
   }
 }else{
   $homepage = "?playerDesktop";
+
   $ascolta = array(
-    "1" => "?playerDesktop=1",
+    "1" => "?playnew=1",
     "2" => "?playerDesktop=2",
     "3" => "?play=3"
   );
-  $visualizza = array(
-    "1" => "?tv=1",
-    "2" => "?tv=2"
-  );
 }
+
+$visualizza = array(
+  "1" => "?tv=1",
+  "2" => "?tv=2"
+);
 
 // Radio / Flussi
 $radio_code = array(
@@ -88,17 +91,26 @@ $radio_stream = array(
   "RDL" => "https://asvradiorelay.asvstudios.it/radio/8000/radio.mp3",
   "RDL Xmas" => "https://asvradiostream.asvstudios.it/listen/rdlxmas/radio.mp3"
 );
+
 $radio_stream_video = array(
   "Radio Città 105" => "https://asvvideostream.asvstudios.it/LiveApp/streams/streamprincipale.m3u8",
   "RDL" => "https://asvvideostream.asvstudios.it/LiveApp/streams/rdlradio.m3u8"
 );
+
 $radio_api = array(
   "Radio Città 105" => "https://asvradiostream.asvstudios.it/",
   "RDL" => "https://asvradiostream.asvstudios.it/"
 );
+
 $radio_iframe = array(
   "Radio Città 105" => "https://www.radiocitta105.it/?proradio-popup=1",
   "RDL" => "https://www.radiodiffusionelibera.com/?proradio-popup=1"
-)
+);
+
+$radio_contentplayer = array(
+  "Radio Città 105" => "https://www.radiocitta105.it/contentrpigplay/",
+  "RDL" => "https://www.radiodiffusionelibera.com/contentrpigplay",
+  "RDL Xmas" => "https://www.radiodiffusionelibera.com/rdlxmas/contentrpigplay/"
+);
 
 ?>

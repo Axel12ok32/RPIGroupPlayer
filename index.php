@@ -13,6 +13,8 @@
   if(isMobileDevice()) {
     if(isset($_GET['play'])){
       include "include/forMobile/player.php";
+    }elseif(isset($_GET['playnew'])){
+      include "include/forMobile/newplayer.php";
     }elseif(isset($_GET['about'])){
       include "include/about.php";
     }elseif(isset($_GET['tv'])){
@@ -25,6 +27,8 @@
       include "include/forDesktop/playerDesktop.php";
     }elseif(isset($_GET['play'])){
       include "include/forMobile/player.php";
+    }elseif(isset($_GET['playnew'])){
+      include "include/forMobile/newplayer.php";
     }elseif(isset($_GET['about'])){
       include "include/about.php";
     }elseif(isset($_GET['tv'])){

@@ -33,7 +33,7 @@
               $radio_select = $radio_code[$countradio];
               ?>
               <div class="col-6" style="margin-bottom: 15px;">
-                <a href="?play=<?php echo $countradio; ?>">
+                <a href="<?php echo $ascolta[$countradio]; ?>">
                   <img src="<?php echo $radio_logo[$radio_select]; ?>" alt="" style="width: 100%; border-radius: 15px;">
                 </a>
               </div>
