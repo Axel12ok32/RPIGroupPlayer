@@ -1,6 +1,6 @@
-<div class="content">
+<div class="content contatti-extra">
     <h3>Hai bisogno di aiuto?</h3>
-    <p style="text-align: center">
+    <p>
         Utilizza i nostri contatti per chiedere supporto sull'uso della nostra app.
     </p>
     <br>

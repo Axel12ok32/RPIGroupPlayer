@@ -1,6 +1,6 @@
-<div class="content" style="text-align: left;">
-    <h3 style="text-align: center">CHANGELOG</h3>
-    <p style="text-align: center">Cosa c'è di nuovo su RPIGroup Play?</p>
+<div class="content changelog-extra">
+    <h3>CHANGELOG</h3>
+    <p>Cosa c'è di nuovo su RPIGroup Play?</p>
     <?php
         foreach($changelog->version as $version){
             echo "<hr style=\"margin: 35px 0px;\">";

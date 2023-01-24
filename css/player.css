@@ -72,7 +72,7 @@ iframe{
   background: #0f1964;
   color: white;
   position: fixed;
-  z-index: 100;
+  z-index: 90;
   bottom: 0;
   width: 100%;
   height: 100px;

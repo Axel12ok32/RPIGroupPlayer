@@ -1,0 +1,57 @@
+.changelog-extra{
+    text-align: left;
+}
+.changelog-extra > h3, .changelog-extra > p{
+    text-align: center;
+}
+
+.chisiamo-extra > p, .contatti-extra > p, .howtoworks-extra > .content-computer-extra{
+    text-align: justify;
+}
+
+.rpi_dbox-extra > img, .rpi_mpreloader > img, .header-extra > img{
+    width: 315px;
+}
+
+.title-extra{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.loader_iframe{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iframe-extra{
+    overflow:hidden;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    height:calc(100% - 60px);
+    width:100%;
+    position:absolute;
+    left:0px;
+    right:0px;
+    bottom:0px;
+}
+
+.radio_select-homescreen{
+    margin-bottom: 15px;
+}
+
+.radio_select-homescreen > a > img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.rpi_dbox_mobile > img{
+    width: 100%;
+}
+
+.rpi_dbox_mobile > img.tuto-ios{
+    width: 100%;
+    border-radius: 5px;
+    margin: 7px 0;
+}

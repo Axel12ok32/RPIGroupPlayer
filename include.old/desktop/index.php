@@ -4,8 +4,8 @@
     <?php include "./include/metatag.php"; ?>
   </head>
   <body class="rpi_dbody">
-    <div class="rpi_dbox">
-      <img src="img/RpiGroupPlayWHITE.png" alt="Logo" style="width: 315px;">
+    <div class="rpi_dbox rpi_dbox-extra">
+      <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
       <p class="subtitle"><i>Un nuovo modo di ascoltare musica</i></p>
       <hr>
       ascolta le nostre emittenti con la nostra nuova app disegnata per smartphone (e non...)

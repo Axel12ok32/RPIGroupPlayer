@@ -3,11 +3,23 @@
 <changelog>
 
     <version>
+        <number>0.22.0 Beta</number>
+        <logs>
+            <log>Cambiata la struttura interna dell'app, con unificazione della visualizzazione mobile con quella desktop.</log>
+            <log>Cambiata la configurazione dell'app. Ottimizzata per ridurre i tempi di attesa e output della pagina.</log>
+            <log>Le emittenti registrate sono inserite all'interno di un file XML apposito.</log>
+            <log>Aggiornato il player interattivo. Ora disponibile di default per tutte le emittenti.</log>
+            <log>Ottimizzata la homescreen con correzioni di vari bug.</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.21.0 Beta</number>
         <logs>
-            <log>Realizzazione del nuovo player interattivo. Disponibile per smartphone e desktop (Al momento, è disponibile solo per l'emittente RDL)</log>
-            <log>Disattivato il precedente player mobile. Verrà riattivato esclusivamente per "emittenti" sprovviste di pagine dinamiche</log>
-            <log>Correzione e bugfix di problematiche varie</log>
+            <log>Realizzazione del nuovo player interattivo. Disponibile per smartphone e desktop (Al momento, è disponibile solo per l'emittente RDL).</log>
+            <log>Disattivato il precedente player mobile. Verrà riattivato esclusivamente per "emittenti" sprovviste di pagine dinamiche.</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
         </logs>
     </version>
 
@@ -15,32 +27,32 @@
         <number>0.20.0 Beta</number>
         <logs>
             <log>L'app entra ufficialmente nello stato di Beta-testing.</log>
-            <log>Cambiata la modalità di indicazione della versione, non più basata sulla data di aggiornamento, ma sul numero di update dell'app</log>
-            <log>Avviata ufficialmente la "Roadmap" sulla Versione 1.0.0</log>
+            <log>Cambiata la modalità di indicazione della versione, non più basata sulla data di aggiornamento, ma sul numero di update dell'app.</log>
+            <log>Avviata ufficialmente la "Roadmap" sulla Versione 1.0.0 (indicata a fine pagina CHANGELOG).</log>
             <log>Aggiunto script per iOS e iPadOS sul rilevamento uso browser/app.</log>
-            <log>Correzione e bugfix script rilevamento app Android</log>
+            <log>Correzione e bugfix script rilevamento app Android.</log>
         </logs>
     </version>
 
     <version>
         <number>0.12.6 Alpha (Last Release)</number>
         <logs>
-            <log>Aggiornata la lista emittenti nel menu in alto sinistra</log>
-            <log>Aggiornate le pagine "Cosa è RPIGRPUP PLAY", "COME FUNZIONA L'APP" e "HAI BISOGNO DI AIUTO"</log>
-            <log>Corretto bug inizializzazione app per iOS e iPadOS</log>
-            <log>Aggiunto script di controllo gestione app per iOS e iPadOS</log>
-            <log>Correzione e bugfix di problematiche varie</log>
+            <log>Aggiornata la lista emittenti nel menu in alto sinistra.</log>
+            <log>Aggiornate le pagine "Cosa è RPIGRPUP PLAY", "COME FUNZIONA L'APP" e "HAI BISOGNO DI AIUTO".</log>
+            <log>Corretto bug inizializzazione app per iOS e iPadOS.</log>
+            <log>Aggiunto script di controllo gestione app per iOS e iPadOS.</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
         </logs>
     </version>
 
     <version>
         <number>0.12.5 Aplha</number>
         <logs>
-            <log>Realizzazione file XML per il Changelog</log>
-            <log>Aggiunto pulsante per la visualizzazione del Changelog</log>
-            <log>Correzione pagina About per la visualizzazione del Changelog</log>
-            <log>Correzione visualizzazione del Home Page</log>
-            <log>Reso automatico il cambio di versione dell'app in base all'ultima versione disponibile e dichiarata all'intero del Changelog</log>
+            <log>Realizzazione file XML per il Changelog.</log>
+            <log>Aggiunto pulsante per la visualizzazione del Changelog.</log>
+            <log>Correzione pagina About per la visualizzazione del Changelog.</log>
+            <log>Correzione visualizzazione del Home Page.</log>
+            <log>Reso automatico il cambio di versione dell'app in base all'ultima versione disponibile e dichiarata all'intero del Changelog.</log>
         </logs>
     </version>
 
@@ -106,6 +118,13 @@
             <log>Correzione e bugfix all'interno della configurazione dell'app</log>
             <log>Rimozione dello script per lo "scroll to update page" da smartphone</log>
             <log>Aggiunti i metodi di contatto in About</log>
+        </logs>
+    </version>
+
+    <version>
+        <number>ROADMAP VERSIONE 1.0.0</number>
+        <logs>
+            <log>Roadmap non disponibile al pubblico.</log>
         </logs>
     </version>
 

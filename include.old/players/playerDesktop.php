@@ -5,12 +5,16 @@
   </head>
   <body id="body" class="rpi_mbody">
     <div class="rpi_mpreloader" id="preloader">
-      <img src="img/RpiGroupPlayWHITE.png" alt="Logo" style="width: 315px;">
+      <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
     </div>
     <div class="rpi_mcontainer">
       <div class="nav">
-        <a data-bs-toggle="offcanvas" href="#menu" role="button" aria-controls="menu"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/></svg></a>
-        <div class="title" style="font-size: 20px; cursor: pointer;" onclick="location.href='<?php echo $homepage; ?>';">
+        <a data-bs-toggle="offcanvas" href="#menu" role="button" aria-controls="menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="30" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </a>
+        <div class="title title-extra" onclick="location.href='<?php echo $homepage; ?>';">
           RPIGroup
         </div>
         <?php include "./include/offcanvas.php"; ?>
@@ -19,14 +23,14 @@
       if($_GET['playerDesktop']){
         $radio_value = $radio_code[$_GET['playerDesktop']];
         ?>
-        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%)">Caricamento...</div>
-        <iframe src="<?php echo $radio_iframe[$radio_value]; ?>" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:calc(100% - 60px);width:100%;position:absolute;left:0px;right:0px;bottom:0px" height="100%" width="100%"></iframe>
+        <div class="loader_iframe">Caricamento...</div>
+        <iframe src="<?php echo $radio_iframe[$radio_value]; ?>" class="iframe-extra" frameborder="0"></iframe>
         <?php
       }else{
         ?>
         <div class="rpi_mfaderpage">
-          <div class="header">
-            <img src="img/RpiGroupPlayWHITE.png" alt="Logo" style="width: 315px;">
+          <div class="header header-extra">
+            <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
             <p class="subtitle"><i>Un nuovo modo di ascoltare musica</i></p>
           </div>
           <div class="content">
@@ -40,9 +44,9 @@
                 $countradio++;
                 $radio_select = $radio_code[$countradio];
                 ?>
-                <div class="col-6" style="margin-bottom: 15px;">
+                <div class="col-6 radio_select-homescreen">
                   <a href="<?php echo $ascolta[$countradio]; ?>">
-                    <img src="<?php echo $radio_logo[$radio_select]; ?>" alt="" style="width: 100%; border-radius: 15px;">
+                    <img src="<?php echo $radio_logo[$radio_select]; ?>" alt="radio logo">
                   </a>
                 </div>
                 <?php

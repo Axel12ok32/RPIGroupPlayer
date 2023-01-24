@@ -1,4 +1,4 @@
-<div class="content">
+<div class="content howtoworks-extra">
     <h3>Come funziona l'app</h3>
     <br>
     <!-- <p style="text-align: justify;">Il funzionamento dell'applicazione, è più semplice del previsto. Tutto ciò che ti serve è una connessione Internet, un browser e il link per accedere alla WebApp.</p>
@@ -13,7 +13,7 @@
     <p>Disponibile a breve video-spiegazione per Android e iOS</p>
     <br>
     <p><b>Da Computer</b></p>
-    <p style="text-align: justify;">
+    <p class="content-computer-extra">
         Per accedere all'interno dell'app basterà visitare uno dei siti web delle radio del gruppo, per poi cliccare su PLAYER, oppure visitando il sito app.rpigroup.it, per poi cliccare sul pulsate ASCOLTA RPIGROUP PLAY
     </p>
 </div>

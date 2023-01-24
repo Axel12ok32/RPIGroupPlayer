@@ -1,40 +1,33 @@
 <?php
-  //   RPIGroup Play
-  //   Realizzato da A.S.V. Studios APPS
 
-  // Versione Applicazione
-  $changelog = simplexml_load_file("./CHANGELOG.xml") or die("Errore: Impossibile accedere al file CHANGELOG");
-  $version_app = $changelog->version->number[0];
+//   RPIGroup Play
+//   Realizzato da A.S.V. Studios APPS
 
-  // File Configurazione sito
-  require "config.php";
 
-  // Check Device
-  if(isMobileDevice()) {
-    if(isset($_GET['play'])){
-      include "include/forMobile/player.php";
-    }elseif(isset($_GET['playnew'])){
-      include "include/forMobile/newplayer.php";
-    }elseif(isset($_GET['about'])){
-      include "include/about.php";
-    }elseif(isset($_GET['tv'])){
-      include "include/webtv.php";
-    }else{
-      include "include/forMobile/index.php";
-    }
+// File Configurazione sito
+
+require "config.php";
+
+
+
+// Accesso pagine app
+
+if(isset($_GET['play'])){
+  include "";
+}elseif(isset($_GET['about'])){
+  include "";
+}elseif(isset($_GET['tv'])){
+  include "";
+}else{
+  if(isMobileDevice()){
+    include "";
   }else{
     if(isset($_GET['playerDesktop'])){
-      include "include/forDesktop/playerDesktop.php";
-    }elseif(isset($_GET['play'])){
-      include "include/forMobile/player.php";
-    }elseif(isset($_GET['playnew'])){
-      include "include/forMobile/newplayer.php";
-    }elseif(isset($_GET['about'])){
-      include "include/about.php";
-    }elseif(isset($_GET['tv'])){
-      include "include/webtv.php";
+      include "";
     }else{
-      include "include/forDesktop/index.php";
+      include "";
     }
   }
+}
+
 ?>
