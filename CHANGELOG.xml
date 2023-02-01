@@ -5,7 +5,8 @@
     <version>
         <number>0.22.1 Beta</number>
         <logs>
-            <log>Risolto il bug del logo all'interno dell'homepage</log>
+            <log>Corretto il bug del logo all'interno dell'homepage</log>
+            <log>Corretto la riproduzione audio dell'emittente Radio Città 105</log>
             <log>Correzione e bugfix di problematiche varie.</log>
         </logs>
     </version>

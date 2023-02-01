@@ -18,7 +18,7 @@
         <slogan>La Radio Della Tua Città</slogan>
         <isthematic>false</isthematic>
         <logo>https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png</logo>
-        <stream>https://asvradiorelay.asvstudios.it/radio/8020/radio.mp3</stream>
+        <stream>https://asvradiorelay.asvstudios.it/radio/8020/auto.aac</stream>
         <contentplayer>https://www.radiocitta105.it/contentrpigplay</contentplayer>
     </station>
 
