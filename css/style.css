@@ -164,6 +164,7 @@ html.is-animating .transition-fade {
 
 .rpi_mcontainer > .rpi_mfaderpage > .header > img{
   margin-top: 90px;
+  width: 315px !important;
 }
 
 .rpi_mcontainer > .rpi_mfaderpage > .header > p.subtitle{

@@ -7,7 +7,7 @@
             var $audioElement = $('#audioElement');
             var audioEl = $audioElement[0];
             var audioSources = {
-                "audio1": "<?php echo $radio_stream[$radio_select]; ?>"
+                "audio1": "<?php echo $radiolist->station[$radioselect]->stream; ?>"
             };
             playAudioElement = function() {
                 audioEl.play();

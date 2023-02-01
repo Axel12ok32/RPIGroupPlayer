@@ -1,8 +1,7 @@
-<?php 
-    include "./include/structure/navigation/header.php";
-    include "./include/structure/navigation/navbar.php";
-?>
+<?php include "./include/structure/navigation/header.php"; ?>
+<?php include "./include/pages/ios.php"; ?>
 <div class="rpi_mcontainer">
+    <?php include "./include/structure/navigation/navbar.php"; ?>
     <div class="rpi_mfaderpage">
         <div class="header">
             <img src="./img/RpiGroupPlayWHITE.png" alt="Logo">

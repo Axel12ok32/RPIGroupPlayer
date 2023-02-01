@@ -48,6 +48,12 @@ function isMobileDeviceIOS(){
   return false;
 }
 
+if(isMobileDevice()){
+  $homepage = "./";
+}else{
+  $homepage = "./?playerDesktop";
+}
+
 
 
 // Inizializzazione Lista Radio

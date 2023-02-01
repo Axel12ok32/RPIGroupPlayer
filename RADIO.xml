@@ -4,9 +4,10 @@
 
     <station>
         <id>1</id>
-        <name>RDL</name>
+        <name>RDL Radio Diffusione Libera</name>
         <slogan>O Sei Fuori, O Sei Dei Nostri</slogan>
-        <logo>https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png?fit=370%2C370&ssl=1</logo>
+        <isthematic>false</isthematic>
+        <logo>https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png</logo>
         <stream>https://asvradiorelay.asvstudios.it/radio/8000/radio.mp3</stream>
         <contentplayer>https://www.radiodiffusionelibera.com/contentrpigplay</contentplayer>
     </station>
@@ -15,9 +16,10 @@
         <id>2</id>
         <name>Radio Città 105</name>
         <slogan>La Radio Della Tua Città</slogan>
+        <isthematic>false</isthematic>
         <logo>https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png</logo>
         <stream>https://asvradiorelay.asvstudios.it/radio/8020/radio.mp3</stream>
-        <contentplayer>https://www.radiocitta105.com/contentrpigplay</contentplayer>
+        <contentplayer>https://www.radiocitta105.it/contentrpigplay</contentplayer>
     </station>
 
 </radio>
