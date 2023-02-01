@@ -3,6 +3,14 @@
 <changelog>
 
     <version>
+        <number>0.22.1 Beta</number>
+        <logs>
+            <log>Risolto il bug del logo all'interno dell'homepage</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.22.0 Beta</number>
         <logs>
             <log>Cambiata la struttura interna dell'app, con unificazione della visualizzazione mobile con quella desktop.</log>
