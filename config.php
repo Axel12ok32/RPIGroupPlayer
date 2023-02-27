@@ -59,5 +59,6 @@ if(isMobileDevice()){
 // Inizializzazione Lista Radio
 
 $radiolist = simplexml_load_file("./RADIO.xml") or die("Errore: Impossibile accedere al file Radio");
+$tvlist = simplexml_load_file("./TV.xml") or die("Errore: Impossibile accedere al file Tv");
 
 ?>

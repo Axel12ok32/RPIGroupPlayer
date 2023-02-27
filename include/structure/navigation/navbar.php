@@ -24,6 +24,15 @@
                 }
             ?>
             <br>
+            <p><b>Web TV</b></p>
+            <?php
+                foreach($tvlist->station as $tvstation){
+                    ?>
+                        <a href="./?tv=<?php echo $tvstation->id; ?>"><?php echo $tvstation->name;?></a>
+                    <?php
+                }
+            ?>
+            <br>
             <a href="?about=contatti">Hai bisogno di aiuto?</a>
             <div class="offcanvas_footer" style="position: absolute; bottom: 25px; font-size: 0.75rem; color: #ffffffaa;">
                 <a onclick="location.href='?about=chisiamo'" style="cursor: pointer;">Cosa è RPIGroup Play?</a> • <a onclick="location.href='?about=comeascoltarci'" style="cursor: pointer;">Come funziona l'app</a><br>

@@ -9,6 +9,10 @@
   user-select: none;
 }
 
+html, body {
+  overscroll-behavior-x: none;
+}
+
 body{
   font-family: 'Rubik', sans-serif;
   overscroll-behavior: contain;

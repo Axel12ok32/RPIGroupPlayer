@@ -3,6 +3,16 @@
 <changelog>
 
     <version>
+        <number>0.22.2 Beta</number>
+        <logs>
+            <log>Corretto la visualizzazione del player da desktop.</log>
+            <log>Corretto la visualizzazione del font scelto per la webapp "Rubik".</log>
+            <log>Varie ottimizzazioni per la valutazione finale di Google Page Speed.</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.22.1 Beta</number>
         <logs>
             <log>Corretto il bug del logo all'interno dell'homepage</log>
@@ -127,13 +137,6 @@
             <log>Correzione e bugfix all'interno della configurazione dell'app</log>
             <log>Rimozione dello script per lo "scroll to update page" da smartphone</log>
             <log>Aggiunti i metodi di contatto in About</log>
-        </logs>
-    </version>
-
-    <version>
-        <number>ROADMAP VERSIONE 1.0.0</number>
-        <logs>
-            <log>Roadmap non disponibile al pubblico.</log>
         </logs>
     </version>
 

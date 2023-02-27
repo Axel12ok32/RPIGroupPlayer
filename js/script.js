@@ -2,6 +2,15 @@ window.onload = function(){
   $("#preloader").fadeOut(150);
 }
 
+if (window.safari) {
+    history.pushState(null, null, location.href);
+    window.onpopstate = function(event) {
+        history.go(1);
+    };
+}
+
+window.history.replaceState(null, null, "#" + url)
+
 /*! Normalized address bar hiding for iOS & Android (c) @scottjehl MIT License */
 (function( win ){
 	var doc = win.document;
