@@ -3,6 +3,15 @@
 <changelog>
 
     <version>
+        <number>0.22.3 Beta</number>
+            <logs>
+            <log>Migliorati i tempi di caricamento dei player</log>
+            <log>Aggiunta nuovi file di Configurazione</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.22.2 Beta</number>
         <logs>
             <log>Corretto la visualizzazione del player da desktop.</log>
