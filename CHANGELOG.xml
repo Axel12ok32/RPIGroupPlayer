@@ -3,6 +3,16 @@
 <changelog>
 
     <version>
+        <number>0.22.4 Beta</number>
+            <logs>
+            <log>Correzione errori minimi nel sistema</log>
+            <log>Aggiunta indicatore della versione app nella schermata desktop</log>
+            <log>Preparazione player video - Correzioni minimi player e aggiunta di pagine mancanti</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.22.3 Beta</number>
             <logs>
             <log>Migliorati i tempi di caricamento dei player</log>
