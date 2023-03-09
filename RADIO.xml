@@ -8,7 +8,7 @@
         <slogan>O Sei Fuori, O Sei Dei Nostri</slogan>
         <isthematic>false</isthematic>
         <logo>https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png</logo>
-        <stream>https://asvradiorelay.asvstudios.it/radio/8000/radio.mp3</stream>
+        <stream>https://asvradiostream.asvstudios.it/radio/8000/radio.mp3</stream>
         <contentplayer>https://www.radiodiffusionelibera.com/contentrpigplay</contentplayer>
     </station>
 
@@ -18,7 +18,7 @@
         <slogan>La Radio Della Tua Città</slogan>
         <isthematic>false</isthematic>
         <logo>https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png</logo>
-        <stream>https://asvradiorelay.asvstudios.it/radio/8020/auto.aac</stream>
+        <stream>https://asvradiostream.asvstudios.it/radio/8020/auto.aac</stream>
         <contentplayer>https://www.radiocitta105.it/contentrpigplay</contentplayer>
     </station>
 
