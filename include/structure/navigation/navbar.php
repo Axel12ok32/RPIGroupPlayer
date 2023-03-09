@@ -21,16 +21,16 @@
                     ?>
                         <a href="./?play=<?php echo $station->id; ?>"><?php echo $station->name;?></a>
                     <?php
-                } /*
+                }
             ?>
-            <br>
-            <p><b>Web TV</b></p>
+            <!-- <br> -->
+            <!-- <p><b>Web TV</b></p> -->
             <?php
                 foreach($tvlist->station as $tvstation){
                     ?>
-                        <a href="./?tv=<?php echo $tvstation->id; ?>"><?php echo $tvstation->name;?></a>
+                        <!-- <a href="./?tv=<?php echo $tvstation->id; ?>"><?php echo $tvstation->name;?></a> -->
                     <?php
-                } */
+                }
             ?>
             <br>
             <a href="?about=contatti">Hai bisogno di aiuto?</a>
