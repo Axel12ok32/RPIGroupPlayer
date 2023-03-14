@@ -22,10 +22,18 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/extra.css">
-        <link rel="stylesheet" href="css/playervideo.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <link rel="stylesheet" href="thirdparties/videojs/video-js.css">
+        <link rel="stylesheet" href="thirdparties/videojs/sea.css">
         <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
         <script src="js/bootstrap.js"></script>
+        <style>
+            body{
+                background-color: black;
+            }
+            .video-js{
+                border: none;
+            }
+        </style>
     </head>
     <body>
         <div class="rpi_mpreloader" id="preloader">

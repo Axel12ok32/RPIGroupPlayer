@@ -23,12 +23,12 @@
                     <?php
                 }
             ?>
-            <!-- <br> -->
-            <!-- <p><b>Web TV</b></p> -->
+            <br>
+            <p><b>Digital WebTV</b></p>
             <?php
                 foreach($tvlist->station as $tvstation){
                     ?>
-                        <!-- <a href="./?tv=<?php echo $tvstation->id; ?>"><?php echo $tvstation->name;?></a> -->
+                         <a href="./?tv=<?php echo $tvstation->id; ?>"><?php echo $tvstation->name;?></a>
                     <?php
                 }
             ?>

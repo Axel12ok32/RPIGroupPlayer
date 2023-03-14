@@ -3,6 +3,15 @@
 <changelog>
 
     <version>
+        <number>0.23.0 Beta</number>
+            <logs>
+            <log>Rilasciato il nuovo player video</log>
+            <log>Inserimento dell'emittente RC105TV nella lista delle WebTV</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.22.4 Beta</number>
             <logs>
             <log>Correzione errori minimi nel sistema</log>
