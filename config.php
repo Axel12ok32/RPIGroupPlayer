@@ -49,9 +49,9 @@ function isMobileDeviceIOS(){
 }
 
 if(isMobileDevice()){
-  $homepage = "./";
+  $homepage = "./?home";
 }else{
-  $homepage = "./?playerDesktop";
+  $homepage = "./?playerDesktop&home";
 }
 
 

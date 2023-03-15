@@ -28,6 +28,6 @@
         <script src="js/bootstrap.js"></script>
     </head>
     <body>
-        <div class="rpi_mpreloader" id="preloader">
+        <!-- <div class="rpi_mpreloader" id="preloader">
             <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
-        </div>
+        </div> -->

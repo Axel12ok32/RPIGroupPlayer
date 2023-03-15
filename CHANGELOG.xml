@@ -3,8 +3,16 @@
 <changelog>
 
     <version>
+        <number>0.23.1 Beta</number>
+        <logs>
+            <log>Rimozione del logo al caricamento di ogni singola pagina (tranne all'avvio dell'app)</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.23.0 Beta</number>
-            <logs>
+        <logs>
             <log>Rilasciato il nuovo player video</log>
             <log>Inserimento dell'emittente RC105TV nella lista delle WebTV</log>
             <log>Correzione e bugfix di problematiche varie.</log>
@@ -13,7 +21,7 @@
 
     <version>
         <number>0.22.4 Beta</number>
-            <logs>
+        <logs>
             <log>Correzione errori minimi nel sistema</log>
             <log>Aggiunta indicatore della versione app nella schermata desktop</log>
             <log>Preparazione player video - Correzioni minimi player e aggiunta di pagine mancanti</log>

@@ -26,6 +26,17 @@
         <script src="js/bootstrap.js"></script>
     </head>
     <body>
-        <div class="rpi_mpreloader" id="preloader">
-            <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
-        </div>
+    <?php
+        if(isset($_GET['home']) or isset($_GET['about'])){
+            ?>
+            
+            <?php
+        }else{
+            ?>
+            <div class="rpi_mpreloader" id="preloader">
+                <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
+            </div>
+            <?php
+        }
+    ?>
+        
