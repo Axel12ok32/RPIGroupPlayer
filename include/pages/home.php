@@ -1,9 +1,7 @@
 <?php include "./include/structure/single-page-start.php"; ?>
 
-<div class="content">
-    <h3>Seleziona la radio che vuoi ascoltare</h3>
-    <br>
-    <div class="row">
+    <h3 class="home-selectTitle">Seleziona la radio</h3>
+    <div class="row g-2">
         <?php
             foreach($radiolist->station as $station){
                 ?>
@@ -16,6 +14,5 @@
             }
         ?>
     </div>
-</div>
 
 <?php include "./include/structure/single-page-end.php"; ?>

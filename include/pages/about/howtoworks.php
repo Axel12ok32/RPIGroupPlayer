@@ -1,4 +1,4 @@
-<div class="content howtoworks-extra">
+<div class="howtoworks-extra">
     <h3>Come funziona l'app</h3>
     <br>
     <p><b>Da Smartphone</b></p>

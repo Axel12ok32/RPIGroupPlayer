@@ -1,4 +1,4 @@
-<div class="content changelog-extra">
+<div class="changelog-extra">
     <h3>CHANGELOG</h3>
     <p>Cosa c'è di nuovo su RPIGroup Play?</p>
     <?php

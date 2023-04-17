@@ -3,6 +3,15 @@
 <changelog>
 
     <version>
+        <number>0.23.2 Beta</number>
+        <logs>
+            <log>Inizializzazione cambio interfaccia e modernamento.</log>
+            <log>Reinserimento della schermata di caricamento nel player.</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.23.1 Beta</number>
         <logs>
             <log>Rimozione del logo al caricamento di ogni singola pagina (tranne all'avvio dell'app)</log>

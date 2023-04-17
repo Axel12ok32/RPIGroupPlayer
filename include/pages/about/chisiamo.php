@@ -1,4 +1,4 @@
-<div class="content chisiamo-extra">
+<div class="chisiamo-extra">
     <h3>Cosa è "RPIGroup Play"?</h3>
     <br>
     <p>RPIGroup Play è l'applicazione (per smartphone, tablet e computer) del gruppo radiofonico Radiopeopleitaly Group (meglio conosciuta RPIGroup), sviluppata e mantenuta da A.S.V. Studios APPS in collaborazione con A.S.V. Studios Radio.</p>

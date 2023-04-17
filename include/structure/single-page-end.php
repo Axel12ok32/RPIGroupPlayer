@@ -1,7 +1,7 @@
         </div>
-        <div class="rpi_mfooter">
+        <!-- <div class="rpi_mfooter">
             App powered by A.S.V. Studios APPS
-        </div>
+        </div> -->
     </div>
 </div>
 <?php 

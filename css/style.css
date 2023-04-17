@@ -161,9 +161,10 @@ html.is-animating .transition-fade {
 
 .rpi_mcontainer > .rpi_mfaderpage > .header{
   background: #2a377e;
-  height: 285px;
+  height: 275px;
   margin: 0px;
   text-align: center;
+  box-shadow: 0px 0px 10px 3px #00000091;
 }
 
 .rpi_mcontainer > .rpi_mfaderpage > .header > img{
@@ -178,18 +179,22 @@ html.is-animating .transition-fade {
 .rpi_mcontainer > .rpi_mfaderpage > .content{
   text-align: center;
   width: 90%;
-  max-width: 390px;
-  min-width: 350px;
+  max-width: 375px;
+  min-width: 335px;
   background: white;
-  padding: 25px;
+  padding: 17px;
   border-radius: 5px;
   box-shadow: 0px 3px 5px 0px #0003;
   position: absolute;
-  top: 240px;
+  top: 235px;
   left: 50%;
   transform: translateX(-50%);
-  max-height: calc(100vh - 290px);
+  max-height: calc(100vh - 255px);
   overflow: auto;
+}
+
+.rpi_mcontainer > .rpi_mfaderpage > .content > .home-selectTitle{
+  margin-bottom: 15px;
 }
 
 ::-webkit-scrollbar {
