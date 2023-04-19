@@ -13,7 +13,8 @@
         <id>1</id>
         <name>Rc105 TV</name>
         <logo>https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png</logo>
-        <stream>https://stream.video.asvstudios.it/webtv/streams/radiocitta105.m3u8</stream>
+        <stream>https://webtv.rpigroup.it/39ae169a-38fe-4925-b2b9-be70dd0f01cb.m3u8</stream>
+        <poster>https://webtv.rpigroup.it/memfs/39ae169a-38fe-4925-b2b9-be70dd0f01cb.jpg</poster>
     </station>
 
 </tv>

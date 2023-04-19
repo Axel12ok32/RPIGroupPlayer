@@ -3,6 +3,16 @@
 <changelog>
 
     <version>
+        <number>0.23.3 Beta</number>
+        <logs>
+            <log>Inserimento del nuovo flusso video per il canale "RC105 TV".</log>
+            <log>Aggiornamento player video - Inserita l'anteprima del flusso video</log>
+            <log>Correzione accesso al player video con l'inserimento automatico dell'anteprima e flusso video del canale selezionato</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.23.2 Beta</number>
         <logs>
             <log>Inizializzazione cambio interfaccia e modernamento.</log>
