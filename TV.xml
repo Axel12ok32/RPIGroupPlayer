@@ -2,15 +2,16 @@
 
 <tv>
 
-    <!-- <station>
+    <station>
         <id>1</id>
         <name>RDL TV</name>
         <logo>https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png</logo>
-        <stream>https://stream.video.asvstudios.it/webtv/streams/rdlradio.m3u8</stream>
-    </station> -->
+        <stream>https://webtv.rpigroup.it/memfs/0a30f923-06b3-461c-8c68-297a66b29485.m3u8</stream>
+        <poster>https://webtv.rpigroup.it/memfs/0a30f923-06b3-461c-8c68-297a66b29485.jpg</poster>
+    </station>
 
     <station>
-        <id>1</id>
+        <id>2</id>
         <name>Rc105 TV</name>
         <logo>https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png</logo>
         <stream>https://webtv.rpigroup.it/39ae169a-38fe-4925-b2b9-be70dd0f01cb.m3u8</stream>
