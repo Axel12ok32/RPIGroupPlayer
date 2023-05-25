@@ -3,9 +3,22 @@
 <changelog>
 
     <version>
+        <number>1.0.0 Stable</number>
+        <logs>
+            <log>Passaggio alla versione "Stable" dell'applicazione</log>
+            <log>Verifica di ulteriori correzioni dal passaggio della versione stabile</log>
+            <log>Leggerimento dell'applicazione a livello backend</log>
+            <log>Ulteriori analisi di stabilità dal momento del passaggio alla versione stabile</log>
+            <log>Correzione e bugfix di problematiche varie causate dall'ultima versione "Beta".</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.24.0 Beta</number>
         <logs>
-            <log>Aggiormaneto player audio: riproduzione dei flussi audio in HLS per il bitrate adattivo. Le radio iscritte devono supportare il protocollo HLS.</log>
+            <log>Aggiormaneto player audio - Riproduzione dei flussi audio in HLS per il bitrate adattivo. Le radio iscritte devono supportare il protocollo HLS.</log>
+            <log>Supporto all'interscambio della connessione - Al cambiare di tipologia (Wifi o Rete Cellulare), il flusso audio non si interrompe.</log>
+            <log>Preparazione del codice alla versione "1.0.0 Stable"</log>
             <log>Correzione e bugfix di problematiche varie.</log>
         </logs>
     </version>

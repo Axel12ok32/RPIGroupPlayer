@@ -1,5 +1,5 @@
 <?php 
-    include "./include/structure/player-page-start.php";
+    include "./include/structure/headPlayer.php";
     $radioselect = $_GET['play'] - 1;
 ?>
 
@@ -21,4 +21,4 @@
     </div>
 </div>
 
-<?php include "./include/structure/player-page-end.php"; ?>
+<?php include "./include/structure/footerPlayer.php"; ?>

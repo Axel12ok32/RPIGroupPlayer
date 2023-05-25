@@ -1,4 +1,4 @@
-<?php include "./include/structure/single-page-start.php"; ?>
+<?php include "./include/structure/headPages.php"; ?>
 
 <?php
 if($_GET['about'] == "chisiamo"){
@@ -18,4 +18,4 @@ if($_GET['about'] == "chisiamo"){
 }
 ?>
 
-<?php include "./include/structure/single-page-end.php"; ?>
+<?php include "./include/structure/footerPages.php"; ?>

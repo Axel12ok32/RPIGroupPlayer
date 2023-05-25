@@ -22,13 +22,19 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/extra.css">
-        <link rel="stylesheet" href="css/player.css">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
         <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
         <script src="js/bootstrap.js"></script>
-        <script src="js/hls.js"></script>
     </head>
     <body>
         <div class="rpi_mpreloader" id="preloader">
             <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
-        </div> 
+        </div>
+        <?php include "./include/pages/ios.php"; ?>
+        <div class="rpi_mcontainer">
+            <?php include "./include/structure/navigation/navbar.php"; ?>
+            <div class="rpi_mfaderpage">
+                <div class="header">
+                    <img src="./img/RpiGroupPlayWHITE.png" alt="Logo" style="width: 315px;">
+                    <p class="subtitle"><i>Un nuovo modo di ascoltare musica</i></p>
+                </div>
+                <div class="content">

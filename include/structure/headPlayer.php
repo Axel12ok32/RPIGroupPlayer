@@ -22,20 +22,17 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/extra.css">
-        <link rel="stylesheet" href="thirdparties/videojs/video-js.css">
-        <link rel="stylesheet" href="thirdparties/videojs/sea.css">
+        <link rel="stylesheet" href="css/player.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
         <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
         <script src="js/bootstrap.js"></script>
-        <style>
-            body{
-                background-color: black;
-            }
-            .video-js{
-                border: none;
-            }
-        </style>
+        <script src="js/hls.js"></script>
     </head>
     <body>
-        <!-- <div class="rpi_mpreloader" id="preloader">
+        <div class="rpi_mpreloader" id="preloader">
             <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
-        </div> -->
+        </div>
+        <div class="rpi_mcontainer">
+            <?php include "./include/structure/navigation/navbar.php"; ?>
+            <div style="position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%)">Caricamento...</div>
+

@@ -22,21 +22,22 @@
         <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/extra.css">
+        <link rel="stylesheet" href="thirdparties/videojs/video-js.css">
+        <link rel="stylesheet" href="thirdparties/videojs/sea.css">
         <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
         <script src="js/bootstrap.js"></script>
+        <style>
+            body{
+                background-color: black;
+            }
+            .video-js{
+                border: none;
+            }
+        </style>
     </head>
     <body>
-    <?php
-        if(isset($_GET['home']) or isset($_GET['about'])){
-            ?>
-            
-            <?php
-        }else{
-            ?>
-            <div class="rpi_mpreloader" id="preloader">
-                <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
-            </div>
-            <?php
-        }
-    ?>
-        
+        <div class="rpi_mpreloader" id="preloader">
+            <img src="img/RpiGroupPlayWHITE.png" alt="Logo">
+        </div>
+        <div class="rpi_mcontainer">
+            <?php include "./include/structure/navigation/navbar.php"; ?>

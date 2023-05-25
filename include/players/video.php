@@ -1,5 +1,5 @@
 <?php
-    include "./include/structure/video-page-start.php";
+    include "./include/structure/headVideoPlayer.php";
     $tvselect = $_GET['tv'] - 1;
 ?>
 
@@ -9,6 +9,4 @@
     </video>
 </div>
 
-
-
-<?php include "./include/structure/video-page-end.php"; ?>
+<?php include "./include/structure/footerVideoPlayer.php"; ?>

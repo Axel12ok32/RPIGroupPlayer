@@ -1,4 +1,4 @@
-<?php include "./include/structure/single-page-start.php"; ?>
+<?php include "./include/structure/headPages.php"; ?>
 
     <h3 class="home-selectTitle">Seleziona la radio</h3>
     <div class="row g-2">
@@ -15,4 +15,4 @@
         ?>
     </div>
 
-<?php include "./include/structure/single-page-end.php"; ?>
+<?php include "./include/structure/footerPages.php"; ?>
