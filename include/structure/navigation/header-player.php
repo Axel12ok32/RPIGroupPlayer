@@ -26,6 +26,7 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
         <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
         <script src="js/bootstrap.js"></script>
+        <script src="js/hls.js"></script>
     </head>
     <body>
         <div class="rpi_mpreloader" id="preloader">

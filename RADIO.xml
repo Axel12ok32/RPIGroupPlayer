@@ -9,6 +9,7 @@
         <isthematic>false</isthematic>
         <logo>https://i0.wp.com/www.radiodiffusionelibera.com/wp-content/uploads/2017/01/RDL-Facebook.png</logo>
         <stream>https://asvradiostream.asvstudios.it/radio/8000/radio.mp3</stream>
+        <streamhls>https://asvradiostream.asvstudios.it/hls/radiodiffusionelibera/live.m3u8</streamhls>
         <contentplayer>https://www.radiodiffusionelibera.com/contentrpigplay</contentplayer>
     </station>
 
@@ -19,6 +20,7 @@
         <isthematic>false</isthematic>
         <logo>https://www.radiocitta105.it/wp-content/uploads/2020/06/26168468_1590103344416186_7025872599153073152_n-1.png</logo>
         <stream>https://asvradiostream.asvstudios.it/radio/8020/auto.aac</stream>
+        <streamhls>https://asvradiostream.asvstudios.it/hls/radiocitta105/live.m3u8</streamhls>
         <contentplayer>https://www.radiocitta105.it/contentrpigplay</contentplayer>
     </station>
 

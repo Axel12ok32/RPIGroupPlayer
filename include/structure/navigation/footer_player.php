@@ -2,13 +2,31 @@
         <script src="js/script.js"></script>
         <script src="js/lowlag.js"></script>
         <script>
+            var player = document.getElementById('audioElement');
+            if (Hls.isSupported()) {
+                var hls = new Hls({
+                    debug: false,
+                });
+                hls.loadSource('<?php echo $radiolist->station[$radioselect]->streamhls; ?>');
+                hls.attachMedia(player);
+                hls.on(Hls.Events.MEDIA_ATTACHED, function () {
+                    //player.play();
+                });
+            } else if (player.canPlayType('application/vnd.apple.mpegurl')) {
+                player.src = '<?php echo $radiolist->station[$radioselect]->streamhls; ?>';
+                player.addEventListener('canplay', function () {
+                //player.play();
+            });
+            }
+        </script>
+        <script>
         // Audio Element
         $(document).ready(function() {
             var $audioElement = $('#audioElement');
             var audioEl = $audioElement[0];
-            var audioSources = {
-                "audio1": "<?php echo $radiolist->station[$radioselect]->stream; ?>"
-            };
+            // var audioSources = {
+            //     "audio1": "<?php echo $radiolist->station[$radioselect]->stream; ?>"
+            // };
             playAudioElement = function() {
                 audioEl.play();
                 document.getElementById("play-pause").innerHTML = "pause";
@@ -34,7 +52,7 @@
                     audioEl.play();
                 }
             }
-            changeAudioElement('audio1', false); // starts with audio1
+            // changeAudioElement('audio1', false); // starts with audio1
         });
         </script>
     </body>

@@ -3,6 +3,14 @@
 <changelog>
 
     <version>
+        <number>0.24.0 Beta</number>
+        <logs>
+            <log>Aggiormaneto player audio: riproduzione dei flussi audio in HLS per il bitrate adattivo. Le radio iscritte devono supportare il protocollo HLS.</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>0.23.3 Beta</number>
         <logs>
             <log>Inserimento del nuovo flusso video per il canale "RC105 TV".</log>
