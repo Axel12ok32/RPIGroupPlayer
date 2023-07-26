@@ -3,7 +3,44 @@
     $radioselect = $_GET['play'] - 1;
 ?>
 
-<iframe src="<?php echo $radiolist->station[$radioselect]->contentplayer; ?>" frameborder="0"></iframe>
+<?php
+    if($radiolist->station[$radioselect]->isthematic == "true"){
+?>
+    <style>
+        .staticpage{
+            background: linear-gradient(45deg, #3849a8, #f7b835);
+            padding: 95px 15px 10px 15px;
+            display: block;
+            z-index: 1;
+            position: relative;
+            height: 100vh;
+            color: white;
+            text-align: center;
+        }
+        .staticpage > .logo{
+            width: 250px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+        }
+        .staticpage > p{
+            margin: 0;
+        }
+        .staticpage > p.titleRadio{
+            font-weight: 600;
+        }
+    </style>
+    <div class="staticpage">
+        <img src="<?php echo $radiolist->station[$radioselect]->logo; ?>" class="logo" alt="logo radio">
+        <p class="titleRadio"><?php echo $radiolist->station[$radioselect]->name; ?></p>
+        <p class="subtitleRadio"><?php echo $radiolist->station[$radioselect]->slogan; ?></p>
+    </div>
+<?php
+    }else{
+?>
+    <iframe src="<?php echo $radiolist->station[$radioselect]->contentplayer; ?>" frameborder="0"></iframe>
+<?php
+    }
+?>
 <div class="footer_player" <?php if(isMobileDeviceIOS()){ echo "style=\"height: 115px;\"";} ?>>
     <div class="row align-items-center">
         <div class="col-2" style="width: 80px;">

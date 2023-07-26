@@ -3,6 +3,16 @@
 <changelog>
 
     <version>
+        <number>1.1.0 Stable</number>
+        <logs>
+            <log>Aggiunta la nuova stazione radio tematica "RDL Revival 70-80-90"</log>
+            <log>Migliorata la visualizzazione del selettore radio della pagina home</log>
+            <log>Implementato nel player la visualizzazione della pagina statica per le radio tematiche</log>
+            <log>Correzione e bugfix di problematiche varie causate dall'ultima versione "Beta".</log>
+        </logs>
+    </version>
+
+    <version>
         <number>1.0.0 Stable</number>
         <logs>
             <log>Passaggio alla versione "Stable" dell'applicazione</log>

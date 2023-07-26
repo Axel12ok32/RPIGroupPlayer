@@ -5,7 +5,7 @@
         <?php
             foreach($radiolist->station as $station){
                 ?>
-                <div class="col-6" style="margin-bottom: 15px;">
+                <div class="col-6">
                     <a href="./?play=<?php echo $station->id; ?>">
                         <img src="<?php echo $station->logo; ?>" alt="<?php $station->name;?>" style="width: 100%; border-radius: 10px;">
                     </a>
