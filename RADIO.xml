@@ -35,4 +35,15 @@
         <contentplayer>https://www.radiodiffusionelibera.com/contentrpigplay</contentplayer>
     </station>
 
+    <station>
+        <id>4</id>
+        <name>RDL Hello Summer</name>
+        <slogan>Goditi l'estate con la super musica di RDL</slogan>
+        <isthematic>true</isthematic>
+        <logo>https://www.radiodiffusionelibera.com/wp-content/uploads/2020/06/summertime.png</logo>
+        <stream>https://asvradiostream.asvstudios.it/listen/rdltheme2/radio.mp3</stream>
+        <streamhls>https://asvradiostream.asvstudios.it/hls/rdltheme2/live.m3u8</streamhls>
+        <contentplayer>https://www.radiodiffusionelibera.com/contentrpigplay</contentplayer>
+    </station>
+
 </radio>
