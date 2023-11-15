@@ -24,26 +24,4 @@
         <contentplayer>https://www.radiocitta105.it/contentrpigplay</contentplayer>
     </station>
 
-    <station>
-        <id>3</id>
-        <name>RDL Revival 70-80-90</name>
-        <slogan>Rivivi le emozioni degli anni 70-80-90</slogan>
-        <isthematic>true</isthematic>
-        <logo>https://www.radiodiffusionelibera.com/wp-content/uploads/2020/06/rdl708090.png</logo>
-        <stream>https://asvradiostream.asvstudios.it/listen/rdltheme/radio.mp3</stream>
-        <streamhls>https://asvradiostream.asvstudios.it/hls/rdltheme/live.m3u8</streamhls>
-        <contentplayer>https://www.radiodiffusionelibera.com/contentrpigplay</contentplayer>
-    </station>
-
-    <station>
-        <id>4</id>
-        <name>RDL Hello Summer</name>
-        <slogan>Goditi l'estate con la super musica di RDL</slogan>
-        <isthematic>true</isthematic>
-        <logo>https://www.radiodiffusionelibera.com/wp-content/uploads/2020/06/summertime.png</logo>
-        <stream>https://asvradiostream.asvstudios.it/listen/rdltheme2/radio.mp3</stream>
-        <streamhls>https://asvradiostream.asvstudios.it/hls/rdltheme2/live.m3u8</streamhls>
-        <contentplayer>https://www.radiodiffusionelibera.com/contentrpigplay</contentplayer>
-    </station>
-
 </radio>

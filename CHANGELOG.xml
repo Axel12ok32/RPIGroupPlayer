@@ -3,6 +3,15 @@
 <changelog>
 
     <version>
+        <number>1.1.1 Stable</number>
+        <logs>
+            <log>Correzione bug che impediva il caricamento del logo nell'icona dell'app sui smartphone.</log>
+            <log>Risolto il problema dell'overscrolling su smartphone.</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>1.1.0 Stable</number>
         <logs>
             <log>Aggiunta la nuova stazione radio tematica "RDL Revival 70-80-90"</log>

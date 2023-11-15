@@ -10,12 +10,11 @@
 }
 
 html, body {
-  overscroll-behavior-x: none;
+  overscroll-behavior: none;
 }
 
 body{
   font-family: 'Rubik', sans-serif;
-  overscroll-behavior: contain;
 }
 
 /* DESKTOP SECTION */
