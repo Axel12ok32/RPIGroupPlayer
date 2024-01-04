@@ -3,6 +3,15 @@
 <changelog>
 
     <version>
+        <number>1.2.0 Stable</number>
+        <logs>
+            <log>Implementato il "Media Sessions" che permette di visualizzare la radio in riproduzione nel centro notifiche su iOS e Android</log>
+            <log>Preparazione dell'ottimizzazione del software in occasione della terza versione dell'app.</log>
+            <log>Correzione e bugfix di problematiche varie.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>1.1.1 Stable</number>
         <logs>
             <log>Correzione bug che impediva il caricamento del logo nell'icona dell'app sui smartphone.</log>

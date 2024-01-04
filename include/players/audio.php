@@ -6,6 +6,7 @@
 <?php
     if($radiolist->station[$radioselect]->isthematic == "true"){
 ?>
+
     <style>
         .staticpage{
             background: linear-gradient(45deg, #3849a8, #f7b835);

@@ -54,8 +54,50 @@
                     audioEl.play();
                 }
             }
-            // changeAudioElement('audio1', false); // starts with audio1
+            
         });
+        </script>
+        <script>
+            if ('mediaSession' in navigator) {
+                const audio = document.getElementById('audioElement');
+                const mediaMetadata = new MediaMetadata({
+                    title: '<?php echo $radiolist->station[$radioselect]->name; ?>',
+                    artist: '<?php echo $radiolist->station[$radioselect]->slogan; ?>',
+                    artwork: [{ src: '<?php echo $radiolist->station[$radioselect]->logo; ?>', type: 'image/jpeg' }]
+                });
+
+                navigator.mediaSession.metadata = mediaMetadata;
+
+                audio.addEventListener('play', () => {
+                    navigator.mediaSession.playbackState = 'playing';
+                });
+
+                audio.addEventListener('pause', () => {
+                    navigator.mediaSession.playbackState = 'paused';
+                });
+            }
+        
+            const audio = document.getElementById('tuoAudioTagId'); // Sostituisci con l'ID del tuo tag audio
+
+            audio.addEventListener('play', () => {
+                const artist = '<?php echo $radiolist->station[$radioselect]->slogan; ?>';
+                const title = '<?php echo $radiolist->station[$radioselect]->name; ?>';
+                const artwork = '<?php echo $radiolist->station[$radioselect]->logo; ?>';
+
+                try {
+                    window.webkit.messageHandlers.updateNowPlaying.postMessage({ title, artist, artwork });
+                } catch (error) {
+                    console.error('Impossibile inviare messaggio a iOS:', error);
+                }
+            });
+
+            audio.addEventListener('pause', () => {
+                try {
+                    window.webkit.messageHandlers.updateNowPlaying.postMessage(null);
+                } catch (error) {
+                    console.error('Impossibile inviare messaggio a iOS:', error);
+                }
+            });
         </script>
     </body>
 </html>
