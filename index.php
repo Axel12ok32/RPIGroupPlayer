@@ -1,33 +1,40 @@
 <?php
 
-//   RPIGroup Play
-//   Realizzato da A.S.V. Studios APPS
+require "./_config/glob.php";
+require "./_include/_layer/header.php";
 
-
-// File Configurazione sito
-
-require "config.php";
-
-
-
-// Accesso pagine app
-
-if(isset($_GET['play'])){
-  include "./include/players/audio.php";
-}elseif(isset($_GET['about'])){
-  include "./include/pages/about.php";
-}elseif(isset($_GET['tv'])){
-  include "./include/players/video.php";
+if(isset($_GET['page'])){
+    $page = $_GET['page'];
 }else{
-  if(isMobileDevice()){
-    include "./include/pages/home.php";
-  }else{
-    if(isset($_GET['playerDesktop'])){
-      include "./include/pages/home.php";
-    }else{
-      include "./include/pages/desktop.php";
-    }
-  }
+    $page = "start";
 }
+
+if(isset($_GET["play"])){ $page = "play"; }
+if(isset($_GET["tv"])){ $page = "tv"; } 
+
+switch ($page){
+    case "home":
+        //require "";
+        echo "home page";
+        break;
+    case "about":
+        //require "";
+        echo "about";
+        break;
+    case "play":
+        //require "";
+        echo "play";
+        break;
+    case "tv":
+        //require "";
+        echo "tv";
+        break;
+    default:
+        //if(isMobileDevice()){ require ""; }else{ require ""; }
+        echo "start page";
+        
+}
+
+require "./_include/_layer/footer.php";
 
 ?>

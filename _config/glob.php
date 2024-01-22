@@ -10,7 +10,7 @@ $logo_site = "./img/logoapp.png";
 
 // Versione Applicazione
 
-$changelog = simplexml_load_file("./CHANGELOG.xml") or die("Errore: Impossibile accedere al file CHANGELOG");
+$changelog = simplexml_load_file("./_config/CHANGELOG.xml") or die("Errore: Impossibile accedere al file CHANGELOG");
 $version_app = $changelog->version->number[0];
 
 
@@ -58,7 +58,7 @@ if(isMobileDevice()){
 
 // Inizializzazione Lista Radio
 
-$radiolist = simplexml_load_file("./RADIO.xml") or die("Errore: Impossibile accedere al file Radio");
-$tvlist = simplexml_load_file("./TV.xml") or die("Errore: Impossibile accedere al file Tv");
+$radiolist = simplexml_load_file("./_config/RADIO.xml") or die("Errore: Impossibile accedere al file Radio");
+$tvlist = simplexml_load_file("./_config/TV.xml") or die("Errore: Impossibile accedere al file Tv");
 
 ?>

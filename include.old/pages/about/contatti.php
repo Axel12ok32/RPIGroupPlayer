@@ -1,4 +1,4 @@
-<div class="content contatti-extra">
+<div class=contatti-extra">
     <h3>Hai bisogno di aiuto?</h3>
     <p>
         Utilizza i nostri contatti per chiedere supporto sull'uso della nostra app.

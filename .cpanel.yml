@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/rpigroup/public_html/rpigroupplay/
-    - /bin/cp * $DEPLOYPATH
