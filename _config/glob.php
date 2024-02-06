@@ -2,9 +2,9 @@
 
 // Inizializzazione Sito
 
-$title_site = "RPIGroup Play";
-$description_site = "Ascolta le radio del gruppo Radiopeopleitaly Group";
-$logo_site = "./img/logoapp.png";
+$title_app = "RPIGroup Play";
+$description_app = "Ascolta le radio del gruppo Radiopeopleitaly Group";
+$logo_app = "./img/logoapp.png";
 
 
 
@@ -46,12 +46,6 @@ function isMobileDeviceIOS(){
     }
   }
   return false;
-}
-
-if(isMobileDevice()){
-  $homepage = "./?home";
-}else{
-  $homepage = "./?playerDesktop&home";
 }
 
 
