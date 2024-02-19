@@ -1,16 +1,18 @@
 <?php
 
 require "./_config/glob.php";
-require "./_include/_layer/header.php";
 
 if(isset($_GET['page'])){
     $page = $_GET['page'];
+}elseif(isset($_GET["play"])){
+    $page = "play";
+}elseif(isset($_GET["tv"])){
+    $page = "tv";
 }else{
     $page = "start";
 }
 
-if(isset($_GET["play"])){ $page = "play"; }
-if(isset($_GET["tv"])){ $page = "tv"; } 
+require "./_include/_layer/header.php";
 
 switch ($page){
     case "home":
@@ -26,7 +28,7 @@ switch ($page){
         require "./_include/_players/video.php";
         break;
     default:
-        if(isMobileDevice()){ require "./_include/_pages/home.php"; }else{ require "./_include/_pages/desktop.php"; }
+        if(isMobileDevice()){ require "./_include/_pages/ios.php"; require "./_include/_pages/home.php"; }else{ require "./_include/_pages/desktop.php"; }
 }
 
 require "./_include/_layer/footer.php";

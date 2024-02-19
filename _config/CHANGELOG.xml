@@ -3,6 +3,14 @@
 <changelog>
 
     <version>
+        <number>1.25.0 Beta</number>
+        <logs>
+            <log>Nuovo motore backend realizzato ad-hoc per l'applicazione realizzato in linguaggio PHP</log>
+            <log>Ritorno alla versione BETA dell'applicazione, riprendendo il numeraggio dalla precedente versione 0.24.0 beta, rimanendo ancorati alla versione 1.2.0 stabile.</log>
+        </logs>
+    </version>
+
+    <version>
         <number>1.2.0 Stable</number>
         <logs>
             <log>Implementato il "Media Sessions" che permette di visualizzare la radio in riproduzione nel centro notifiche su iOS e Android</log>

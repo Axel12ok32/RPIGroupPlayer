@@ -22,3 +22,6 @@
         <link rel="stylesheet" href="./_css/style.css">
     </head>
     <body>
+        <div class="rpi_mpreloader" id="preloader">
+            <img src="./_img/RpiGroupPlayWHITE.png" alt="Logo">
+        </div>
